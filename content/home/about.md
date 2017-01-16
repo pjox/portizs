@@ -19,7 +19,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Msc in Mathmatics"
+  course = "MSc in Mathmatics"
   institution = "Aix-Marseille Université"
   year = 2017
 
