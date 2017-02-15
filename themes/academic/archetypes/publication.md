@@ -25,8 +25,8 @@ abstract_short = ""
 # Does this page contain LaTeX math? (true/false)
 math = false
 
-# Featured image (optional)
-image = ""
+# Does this page require source code highlighting? (true/false)
+highlight = true
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -41,5 +41,10 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
 
 +++
