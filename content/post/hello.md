@@ -8,4 +8,4 @@ math = true
 
 Greetings!
 
-This is my personal website where you can find my personal information, and where I will post some projects and toughts about mathematics.
+This is my personal website where you can find my personal information, and where I will post some projects and thoughts about mathematics.

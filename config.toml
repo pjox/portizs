@@ -5,6 +5,7 @@ theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
+
 #robots
 enableRobotsTXT = true
 
@@ -24,7 +25,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Pedro J. Ortiz."
   role = "Student of Mathematics"
-  organization = "Aix-Marseille Université"
+  organization = "Aix-Marseille University"
   avatar = "portrait.jpg"
   email = "contact@pjortiz.com"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
@@ -142,6 +143,16 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
+[[menu.main]]
+  name = "Es"
+  url = "es"
+  weight = 7
+
+[[menu.main]]
+  name = "Fr"
+  url = "fr"
+  weight = 8
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
@@ -150,6 +161,44 @@ defaultContentLanguageInSubdir = false
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
+[languages.fr]
+role = "Étudiant de Mathématiques"
+
+[languages.fr.blackfriday]
+angledQuotes = true
+
+[[languages.fr.menu.main]]
+  name = "Accueil"
+  url = "#about"
+  weight = 1
+
+[[languages.fr.menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[languages.fr.menu.main]]
+  name = "Contactez moi"
+  url = "#contact"
+  weight = 6
+
+[languages.es]
+role = "Estudiante de matemáticas"
+
+[[languages.es.menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[languages.es.menu.main]]
+  name = "Contacto"
+  url = "#contact"
+  weight = 6
 
 # Configure the English version of the website.
 [languages.en]
