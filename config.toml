@@ -143,16 +143,6 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
-[[menu.main]]
-  name = "Es"
-  url = "es"
-  weight = 7
-
-[[menu.main]]
-  name = "Fr"
-  url = "fr"
-  weight = 8
-
 # Taxonomies.
 [taxonomies]
   tag = "tags"

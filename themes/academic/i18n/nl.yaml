@@ -1,100 +1,100 @@
 # Navigation
 
 - id: toggle_navigation
-  translation: Ouvrir la barre de navigation
+  translation: Navigatiebalk
 
 # Buttons
 
 - id: btn_details
-  translation: Renseignements
+  translation: Details
 
 - id: btn_pdf
   translation: PDF
 
 - id: btn_slides
-  translation: Diapositives
+  translation: Dia's
 
 - id: btn_video
-  translation: Vidéo
+  translation: Video
 
 - id: btn_code
   translation: Code
 
 - id: btn_dataset
-  translation: Jeu de données
+  translation: Dataset
 
 - id: btn_project
-  translation: Projet
+  translation: Project
 
 # About widget
 
 - id: interests
-  translation: Intérêts
+  translation: Interesses
 
 - id: education
-  translation: Formation
+  translation: Educatie
 
 # Publications widget
 
 - id: more_publications
-  translation: Plus de publications
+  translation: Meer Publicaties
 
 # Posts widget
 
 - id: continue_reading
-  translation: CONTINUER DE LIRE
+  translation: LEES VERDER
 
 - id: more_posts
-  translation: Plus de posts
+  translation: Meer Berichten
 
 # Talks widget
 
 - id: more_talks
-  translation: Plus de présentations
+  translation: Meer Presentaties
 
 # Publication/Talk details
 
 - id: abstract
-  translation: Résumé
+  translation: Korte inhoud
 
 - id: publication
-  translation: Publication
+  translation: Publicatie
 
 - id: publication_type
   translation: Type
 
 - id: date
-  translation: Date
+  translation: Datum
 
 - id: links
-  translation: Liens
+  translation: Links
 
 - id: event
-  translation: Événement
+  translation: Evenement
 
 - id: location
-  translation: Lieu
+  translation: Locatie
 
 # Filtering
 
 - id: filter_by_type
-  translation: Filtré par type
+  translation: Filter op type
 
 - id: filter_all
-  translation: Tout
+  translation: Alles
 
 # Project details
 
 - id: open_project_site
-  translation: Aller sur le site du projet
+  translation: Ga naar Projecten pagina
 
 # Default node titles
 
 - id: posts
-  translation: Posts
+  translation: Berichten
 
 - id: publications
-  translation: Publications
+  translation: Publicaties
 
 - id: talks
-  translation: Présentations
+  translation: Presentaties
