@@ -12,9 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Geometría compleja",
-    "Geometría algebraica",
-    "Geometría aritmética"
+    "Machine Learning",
+    "Deep Learning",
+    "Geometría compleja"
 ]
 
 # List your qualifications (such as academic degrees).
@@ -24,7 +24,7 @@ weight = 1
   year = 2017
 
 [[education.courses]]
-  course = "Pregrado en Matemáticas"
+  course = "Pregrado en matemáticas"
   institution = "Universidad Nacional de Colombia"
   year = 2016
  
@@ -32,8 +32,8 @@ weight = 1
 
 # Acerca de mí
 
-Soy un estudainte de matemáticas en la univerdidad de Aix-Marseille.
+Soy un matemático interesado en Machine Learning y Deep Leaning.
 
-Estoy interesado en la geometría compleja, la geometría algebraica y la geometría aritmética.
+He trabajado en geometría compleja, geometría algebraica y geometría aritmética.
 
 En mi tiempo libre bebo café, programo y juego al [Go](http://en.wikipedia.org/wiki/Go_%28game%29).

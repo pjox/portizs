@@ -8,4 +8,4 @@ math = true
 
 Bonjour !
 
-Voici mon site personnel où vous pouvez trouver mes informations personnelles, et où je vais poster des projets et des réflexions sur les mathématiques.
+Voici mon site personnel où vous pouvez trouver mes informations personnelles, et où je vais poster des projets et des réflexions sur les mathématiques et l'informatique.

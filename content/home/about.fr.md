@@ -12,9 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Géométrie complexe",
-    "Géométrie algébrique",
-    "Géométrie arithmétique"
+    "Apprentissage automatique",
+    "Apprentissage profond",
+    "Géométrie complexe"
 ]
 
 # List your qualifications (such as academic degrees).
@@ -32,8 +32,8 @@ weight = 1
 
 # À propos de moi
 
-Je suis un étudiant de mathématiques à l'université d'Aix-Marseille.
+Je suis un mathématicien interesé en l'apprentissage automatique et l'apprentissage profond.
 
-Je suis interesé par la géométrie complexe, la géométrie algébrique et la géométrie arithmétique.
+J'ai travaillé en la géométrie complexe, la géométrie algébrique et la géométrie arithmétique.
 
 Dans mon temps libre, je bois du café, programmer et jeu [Go](http://en.wikipedia.org/wiki/Go_%28game%29).

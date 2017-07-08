@@ -24,8 +24,8 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Pedro J. Ortiz."
-  role = "Student of Mathematics"
-  organization = "Aix-Marseille University"
+  role = "Mathematician"
+  #organization = ""
   avatar = "portrait.jpg"
   email = "contact@pjortiz.com"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
@@ -128,10 +128,10 @@ defaultContentLanguageInSubdir = false
   url = "#posts"
   weight = 3
 
-#[[menu.main]]
-  #name = "Projects"
-  #url = "#projects"
-  #weight = 4
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
 #[[menu.main]]
   #name = "Teaching"
@@ -152,7 +152,7 @@ defaultContentLanguageInSubdir = false
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 [languages.fr]
-role = "Étudiant de Mathématiques"
+role = "Mathématicien"
 
 [languages.fr.blackfriday]
 angledQuotes = true
@@ -168,12 +168,17 @@ angledQuotes = true
   weight = 3
 
 [[languages.fr.menu.main]]
+  name = "Projets"
+  url = "#projects"
+  weight = 4
+
+[[languages.fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
   weight = 6
 
 [languages.es]
-role = "Estudiante de matemáticas"
+role = "Matemático"
 
 [[languages.es.menu.main]]
   name = "Home"
@@ -184,6 +189,11 @@ role = "Estudiante de matemáticas"
   name = "Posts"
   url = "#posts"
   weight = 3
+
+[[languages.es.menu.main]]
+  name = "Proyectos"
+  url = "#projects"
+  weight = 4
 
 [[languages.es.menu.main]]
   name = "Contacto"

@@ -12,9 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Complex Geometry",
-    "Algebraic Geometry",
-    "Arithmetic Geometry"
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Complex Algebraic Geometry",
 ]
 
 # List your qualifications (such as academic degrees).
@@ -32,8 +32,8 @@ weight = 1
 
 # Biography
 
-I’m a student of Mathematics at the Aix-Marseille Université.
+I’m a mathematician interested in Machine Learning and Deep Leaning.
 
-I’m interested in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
+I’m have worked in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
 
 In my spare time, I drink coffee, code and play [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
