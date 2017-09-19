@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "Machine Learning",
     "Deep Learning",
+    "Criptografía",
     "Geometría compleja"
 ]
 
@@ -32,7 +33,7 @@ weight = 1
 
 # Acerca de mí
 
-Soy un matemático interesado en Machine Learning y Deep Leaning.
+Soy un matemático interesado en Machine Learning, Deep Leaning y Criptografía.
 
 He trabajado en geometría compleja, geometría algebraica y geometría aritmética.
 

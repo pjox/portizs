@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "Artificial Intelligence",
     "Deep Learning",
+    "Cryptography",
     "Complex Algebraic Geometry",
 ]
 
@@ -32,8 +33,8 @@ weight = 1
 
 # Biography
 
-I’m a mathematician interested in Machine Learning and Deep Leaning.
+I’m a mathematician interested in Machine Learning, Deep Leaning and Cryptography.
 
-I’m have worked in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
+I've worked in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
 
 In my spare time, I drink coffee, code and play [Go](http://en.wikipedia.org/wiki/Go_%28game%29).

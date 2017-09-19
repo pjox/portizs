@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "Apprentissage automatique",
     "Apprentissage profond",
+    "Cryptographie",
     "Géométrie complexe"
 ]
 
@@ -32,7 +33,7 @@ weight = 1
 
 # À propos de moi
 
-Je suis un mathématicien interesé en l'apprentissage automatique et l'apprentissage profond.
+Je suis un mathématicien interesé en l'apprentissage automatique, l'apprentissage profond et la Cryptographie.
 
 J'ai travaillé en la géométrie complexe, la géométrie algébrique et la géométrie arithmétique.
 
