@@ -1,5 +1,4 @@
 +++
-
 # Date this page was created.
 date = "2017-04-27"
 
@@ -18,5 +17,8 @@ tags = ["demo"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/pjox/Outre-espace-et-Out-Fn"
+
+# Does the project detail page use math formatting?
+math = false
 
 +++

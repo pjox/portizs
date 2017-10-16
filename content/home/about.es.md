@@ -12,10 +12,11 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Machine Learning",
-    "Deep Learning",
     "Criptografía",
-    "Geometría compleja"
+    "Deep Learning",
+    "Geometría compleja",
+    "Geometría aritmética",
+    "Machine Learning",
 ]
 
 # List your qualifications (such as academic degrees).
@@ -33,7 +34,7 @@ weight = 1
 
 # Acerca de mí
 
-Soy un matemático interesado en Machine Learning, Deep Leaning y Criptografía.
+Soy un matemático interesado en criptografía, deep learning, geometría compleja, geometría aritmética y machine learning.
 
 He trabajado en geometría compleja, geometría algebraica y geometría aritmética.
 

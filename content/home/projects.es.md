@@ -17,6 +17,9 @@ weight = 50
 # Legend: 0 = list, 1 = cards.
 view = 1
 
+# Default filter index (e.g. 0 corresponds to the first `[[filter]]` instance below).
+filter_default = 0
+
 # Filter toolbar.
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.

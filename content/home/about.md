@@ -12,10 +12,11 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
+    "Arithmetic Geometry",
     "Artificial Intelligence",
-    "Deep Learning",
-    "Cryptography",
     "Complex Algebraic Geometry",
+    "Cryptography",
+    "Deep Learning",
 ]
 
 # List your qualifications (such as academic degrees).
@@ -33,7 +34,7 @@ weight = 1
 
 # Biography
 
-I’m a mathematician interested in Machine Learning, Deep Leaning and Cryptography.
+I’m a mathematician interested in Arithmetic Geometry, Artificial Intelligence, Complex Algebraic Geometry, Cryptography, and Deep Learning.
 
 I've worked in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
 

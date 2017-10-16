@@ -4,7 +4,8 @@ copyright = "&copy; 2017 Pedro J. Ortiz"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+paginate = 10
 
 #robots
 enableRobotsTXT = true
@@ -19,14 +20,30 @@ googleAnalytics = "UA-99425319-1"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[outputs]
+  home = [ "HTML", "CSS" ]
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
+  color_theme = "default"
+
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
+
+  # Your details.
   name = "Pedro J. Ortiz."
   role = "Mathematician"
-  #organization = ""
-  avatar = "portrait.jpg"
+
+  # Organizations/Affiliations.
+  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+  #organizations = [ { name = "Stanford University", url = "" } ]
+
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "contact@pjortiz.com"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -41,6 +58,8 @@ defaultContentLanguageInSubdir = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
 
+  # Show estimated reading time for posts?
+  reading_time = true
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
   math = true
@@ -66,21 +85,14 @@ defaultContentLanguageInSubdir = false
   #
   #     Example: highlight_style = "github-gist"
   #
-  #   highlight_version
-  #     Choose the version of highlight.js you want. Setting this
-  #     option in a page's preamble has no effect.
-  #
-  #     Example: highlight_version = "9.9.0"
-  #
-  #   For the list of supported languages, styles, and versions, see:
+  #   For the list of supported languages and styles, see:
   #   https://cdnjs.com/libraries/highlight.js/
   #
   #   For more info on the highlighting options, see:
-  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
-  # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
   sharing = false
@@ -188,55 +200,55 @@ defaultContentLanguageInSubdir = false
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
-[languages.fr]
+[Languages.fr]
 role = "Mathématicien"
 
-[languages.fr.blackfriday]
+[Languages.fr.blackfriday]
 angledQuotes = true
 
-[[languages.fr.menu.main]]
+[[Languages.fr.menu.main]]
   name = "Accueil"
   url = "#about"
   weight = 1
 
-[[languages.fr.menu.main]]
+[[Languages.fr.menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
-[[languages.fr.menu.main]]
+[[Languages.fr.menu.main]]
   name = "Projets"
   url = "#projects"
   weight = 4
 
-[[languages.fr.menu.main]]
+[[Languages.fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
   weight = 6
 
-[languages.es]
+[Languages.es]
 role = "Matemático"
 
-[[languages.es.menu.main]]
+[[Languages.es.menu.main]]
   name = "Home"
   url = "#about"
   weight = 1
 
-[[languages.es.menu.main]]
+[[Languages.es.menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
-[[languages.es.menu.main]]
+[[Languages.es.menu.main]]
   name = "Proyectos"
   url = "#projects"
   weight = 4
 
-[[languages.es.menu.main]]
+[[Languages.es.menu.main]]
   name = "Contacto"
   url = "#contact"
   weight = 6
 
 # Configure the English version of the website.
-[languages.en]
+[Languages.en]
   languageCode = "en-us"
