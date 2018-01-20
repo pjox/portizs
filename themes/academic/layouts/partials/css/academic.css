@@ -37,6 +37,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
+  background-color: {{ .Get "background" }};
   margin-top: 71px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
@@ -144,11 +145,15 @@ figcaption h4 {
 pre,
 code {
   font-family: '{{ .Get "mono_font" }}', monospace;
+  color: #c7254e;
+  background-color: #f9f2f4;
 }
 
 pre {
   margin: 0 0 1rem 0;
   overflow: auto;
+  background-color: rgb(248, 248, 248); /* Match default highlight theme. */
+  border-color: rgb(248, 248, 248);
 }
 
 hr {
@@ -196,6 +201,93 @@ blockquote p:last-child {
   }
 }
 
+small,
+.small {
+  font-size: .75em;
+}
+
+/*************************************************
+ *  Modals.
+ **************************************************/
+
+.modal-header .close {
+  font-size: 40px; /* Bigger cross. */
+  height: 30px; /* Remove icon's vertical spacing. */
+  overflow-y: hidden;
+  position: relative;
+  top: -5px;
+}
+
+.modal-content pre {
+  margin: 0;
+}
+
+#modal-error {
+  color: red;
+}
+
+/*************************************************
+ *  Gallery.
+ **************************************************/
+
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0;
+}
+
+a[data-fancybox] {
+  text-decoration: none;
+}
+
+a[data-fancybox] img {
+  height: 250px;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit;
+}
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/*************************************************
+ *  Pager.
+ **************************************************/
+
+.post-nav {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.post-nav-item {
+  hyphens: auto;
+  word-wrap: break-word;
+  padding: 11px 0 12px;
+  width: 100%;
+}
+
+.post-nav-item a {
+  color: #2b2b2b;
+  line-height: 1.7;
+  text-transform: none;
+}
+
+.post-nav-item .meta-nav {
+  color: #767676;
+  font-weight: 900;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.dark .post-nav-item a {
+  color: #ddd;
+}
+
 /*************************************************
  *  Home Sections
  **************************************************/
@@ -241,6 +333,84 @@ blockquote p:last-child {
   font-weight: 400;
   font-size: 1.1rem;
   color: #b2b2b2;
+}
+
+/*************************************************
+ *  Hero Widget
+ **************************************************/
+
+.hero-overlay {
+  position: relative;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: intro 0.3s both;
+  animation-delay: 0s;
+  animation-delay: 0.25s;
+}
+
+.hero-title {
+  font-size: 2.7rem;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.hero-lead {
+  max-width: 768px;
+  font-size: 1.35rem;
+}
+
+.hero-overlay .hero-title,
+.hero-overlay .hero-lead,
+.hero-overlay .btn {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-overlay a {
+  color: #fff;
+}
+
+.hero-overlay .hero-lead a {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.hero-overlay .btn-large {
+  font-size: 1.1rem;
+}
+
+/*************************************************
+ *  Featurette Widget
+ **************************************************/
+
+.featurette {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+.featurette h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #333;
+}
+
+.dark .featurette,
+.dark .featurette h3 {
+  color: #fff;
+}
+
+.featurette-icon {
+  display: block;
+  width: 100%;
+  color: {{ .Get "primary" }};
+  font-size: 3rem;
+  text-align: center;
 }
 
 /*************************************************
@@ -464,11 +634,14 @@ article {
   margin-bottom: 5px;
 }
 
-.article-metadata .article-date,
-.article-metadata .article-reading-time,
-.article-metadata .article-categories,
-.article-metadata .article-tags {
-  margin-right: 10px;
+.middot-divider {
+  padding-right: .45em;
+  padding-left: .45em;
+  font-size: 15px;
+}
+
+.middot-divider::after {
+  content: '\00B7';
 }
 
 .article-style img,
@@ -482,6 +655,12 @@ article {
   padding-right: 0;
 }
 
+.article-style td img,
+.article-style td video {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .article-style figure {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -490,6 +669,20 @@ article {
 .article-style figure img {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.article-widget {
+  padding-top: 1rem;
+}
+
+.article-widget h3 {
+  margin-top: 0;
+}
+
+.hr-light {
+  border-top: 1px solid rgba(0,0,0,.05);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 #comments {
@@ -560,9 +753,9 @@ article {
  * Talks
  **************************************************/
 
-.talk-event {
-  color: #090;
-  font-size: 1rem;
+.talk-metadata {
+  color: #4b4f56;
+  font-size: 0.8rem;
 }
 
 /*************************************************
@@ -578,7 +771,6 @@ article {
 }
 
 #projects.home-section .project-title {
-  display: inline-block;
   margin-bottom: 6px;
 }
 
@@ -731,6 +923,11 @@ article {
   margin-bottom: 0;
 }
 
+#map {
+  height: 350px;
+  width: 100%;
+}
+
 /*************************************************
  *  Footer
  **************************************************/
@@ -766,6 +963,17 @@ footer a#back_to_top i {
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
   background: {{ .Get "primary" }} !important;
+}
+
+.btn-light {
+  border-color: #fff !important;
+  background: #fff !important;
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light.active {
+  background: rgba(0,0,0,0.4) !important;
 }
 
 /*************************************************
@@ -819,6 +1027,19 @@ footer a#back_to_top i {
   color: #fff !important;
 }
 
+.btn-light.btn-outline {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-light.btn-outline:focus {
+  color: #fff !important;
+}
+
+.btn-light.btn-outline:active {
+  color: transparent !important;
+}
+
 .btn-success.btn-outline {
   color: #5cb85c;
 }
@@ -836,6 +1057,7 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline:hover,
+.btn-light.btn-outline:hover,
 .btn-success.btn-outline:hover,
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
@@ -905,6 +1127,10 @@ nav#navbar-main li {
   padding-bottom: 10px;
 }
 
+.navbar-brand img {
+  max-height: 50px;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: {{ .Get "menu_text" }} !important;
 }
@@ -971,6 +1197,10 @@ nav#navbar-main li {
     line-height: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .navbar-brand img {
+    max-height: 40px;
   }
 
   .navbar-header {
@@ -1168,4 +1398,111 @@ div.alert a:hover {
   color: #fff;
   background-color: #f44336; /* Material Red500 */
   border-color: #ebccd1;
+}
+
+
+/*************************************************
+ *  Dark themed components
+ **************************************************/
+
+body.dark {
+  color: rgb(248, 248, 242);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: rgb(152, 166, 173);
+}
+
+.dark pre,
+.dark code {
+  color: rgb(139, 233, 253);
+  background-color: rgb(68, 71, 90);
+
+}
+
+.dark pre {
+  background-color: rgb(68, 71, 90);
+  border-color: rgb(68, 71, 90);
+}
+
+.dark ul.share li a {
+  background-color: {{ .Get "primary" }};
+}
+
+.dark table table {
+  background-color: rgb(40, 42, 54);
+}
+
+/* Table Striped */
+.dark table > tbody > tr:nth-child(odd) > td,
+.dark table > tbody > tr:nth-child(odd) > th {
+  background-color: rgb(50, 52, 64);
+}
+
+/* Table Hover */
+.dark table > tbody > tr:hover > td,
+.dark table > tbody > tr:hover > th {
+  background-color: rgb(60, 62, 74);
+}
+
+.dark .article-title a {
+  color: #fff;
+}
+
+.dark #profile .portrait-title h2 {
+  color: #fff;
+}
+
+.dark #profile .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark ul.ul-edu li .description p.institution {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dark .pub-icon {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark .talk-metadata {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark .pager li > a, .pager li > span {
+  background-color: rgb(40, 42, 54);
+  border: 1px solid #ddd;
+}
+
+.dark .card {
+  background: rgb(10, 12, 24);
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+}
+
+.dark .card h4 a {
+  color: {{ .Get "primary" }};
+  border-bottom: solid 1px transparent;
+}
+
+.dark .card .card-image.hover-overlay::before {
+  background: #666;
+}
+
+.dark .card .card-image.hover-overlay::after {
+  color: #fff;
+}
+
+.dark .navbar-default {
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
+  border-color: #070707;
+}
+
+.dark select {
+  background: rgb(40, 42, 54);
+  color: rgb(248, 248, 242);
 }

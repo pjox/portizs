@@ -1,0 +1,39 @@
+[debug] [2018-01-20T00:34:08.977Z] ----------------------------------------------------------------------
+[debug] [2018-01-20T00:34:08.980Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2018-01-20T00:34:08.980Z] CLI Version:   3.13.1
+[debug] [2018-01-20T00:34:08.980Z] Platform:      linux
+[debug] [2018-01-20T00:34:08.980Z] Node Version:  v9.4.0
+[debug] [2018-01-20T00:34:08.980Z] Time:          Sat Jan 20 2018 01:34:08 GMT+0100 (CET)
+[debug] [2018-01-20T00:34:08.981Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-20T00:34:09.000Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-20T00:34:09.000Z] > authorizing via signed-in user
+[debug] [2018-01-20T00:34:09.002Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-20T00:34:09.003Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/RH4rRnkKxyXuYMvKU4zMivSq7uZ3oBVXWkouma-9gC8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jan 20 2018 01:34:09 GMT+0100 (CET)
+[debug] [2018-01-20T00:34:09.175Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-20T00:34:09.185Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pjortiz-76cd8  
+ Sat Jan 20 2018 01:34:09 GMT+0100 (CET)
+[debug] [2018-01-20T00:34:09.952Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-20T00:34:09.954Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pjortiz-76cd8/tokens  
+ Sat Jan 20 2018 01:34:09 GMT+0100 (CET)
+[debug] [2018-01-20T00:34:11.046Z] <<< HTTP RESPONSE 200
+[info] 2
+[info] 
+[info] === Deploying to 'pjortiz-76cd8'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-01-20T00:34:11.812Z] >>> HTTP REQUEST PUT https://pjortiz-76cd8.firebaseio.com/.settings/rules.json?dryRun=true {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+ 
+ Sat Jan 20 2018 01:34:11 GMT+0100 (CET)
+[debug] [2018-01-20T00:34:12.616Z] <<< HTTP RESPONSE 200

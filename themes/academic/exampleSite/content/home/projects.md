@@ -1,16 +1,19 @@
 +++
 # Projects widget.
-# This widget displays all projects from `content/project/`.
-
+widget = "projects"
+active = true
 date = "2016-04-20T00:00:00"
-draft = false
 
 title = "Projects"
 subtitle = ""
-widget = "projects"
 
 # Order that this section will appear in.
 weight = 50
+
+# Content.
+# Display content from the following folder.
+# For example, `folder = "project"` displays content from `content/project/`.
+folder = "project"
 
 # View.
 # Customize how projects are displayed.
@@ -28,7 +31,7 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
-  
+
 [[filter]]
   name = "Deep Learning"
   tag = ".deep-learning"

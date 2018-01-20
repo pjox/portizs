@@ -19,6 +19,16 @@
 {{ if isset .Site.Data.themes $theme_index }}
   {{ $theme := index .Site.Data.themes $theme_index }}
 
+  {{- $scr.Set "light" $theme.light -}}
+
+  {{ if $theme.background }}
+    {{- $scr.Set "background" $theme.background -}}
+  {{ else if $theme.light }}
+    {{- $scr.Set "background" "#fff" -}}
+  {{ else }}
+    {{- $scr.Set "background" "rgb(40, 42, 54)" -}}
+  {{ end }}
+
   {{- $scr.Set "primary" $theme.primary -}}
   {{- $scr.Set "primary_light" $theme.primary_light -}}
   {{- $scr.Set "primary_dark" $theme.primary_dark -}}
