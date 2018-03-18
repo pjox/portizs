@@ -6,6 +6,6 @@ title = "Hello!"
 math = true
 +++
 
-Greetings!
+Hello!
 
 This is my personal website where you can find my personal information, and where I will post some projects and thoughts about mathematics and computer sciences.

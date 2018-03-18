@@ -36,6 +36,6 @@ weight = 1
 
 Je suis un mathématicien interesé par l'apprentissage automatique, l'apprentissage profond, la cryptographie, la géométrie arithmétique et la géométrie complexe.
 
-J'ai travaillé en la géométrie complexe, la géométrie algébrique et la géométrie arithmétique.
+J'ai travaillé en géométrie complexe, géométrie algébrique et en géométrie arithmétique.
 
-Dans mon temps libre, je bois du café, programmer et jeu [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
+J'aime le café, la programmation et le jeu [Go](http://en.wikipedia.org/wiki/Go_%28game%29).

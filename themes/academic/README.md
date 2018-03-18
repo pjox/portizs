@@ -29,6 +29,7 @@ Academic is available in different color themes and font themes.
 ## Install
 
 You can choose from one of the following four methods to install:
+
 * one-click install using your web browser (recommended)
 * install on your computer using Git with the Command Prompt/Terminal app
 * install on your computer by downloading the ZIP files
@@ -82,7 +83,7 @@ Prerequisites:
 
 ## Updating
 
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) to help keep track of updates and check out the [release notes](https://sourcethemes.com/academic/tags/updates) prior to updating your site.
+Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) to help keep track of updates and check out the [release notes](https://sourcethemes.com/academic/updates) prior to updating your site.
 
 Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your `themes/academic` directory) and record your current version number.
 
