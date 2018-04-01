@@ -20,7 +20,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "pjortiz"
+disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-99425319-1"
@@ -269,6 +269,11 @@ defaultContentLanguageInSubdir = false
   #weight = 5
 
 [[menu.main]]
+  name = "Photos"
+  url = "#photos"
+  weight = 5
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
@@ -304,6 +309,11 @@ defaultContentLanguageInSubdir = false
   #weight = 4
 
 [[Languages.fr.menu.main]]
+  name = "Photos"
+  url = "#photos"
+  weight = 5
+
+[[Languages.fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
   weight = 6
@@ -326,6 +336,11 @@ defaultContentLanguageInSubdir = false
   #name = "Proyectos"
   #url = "#projects"
   #weight = 4
+
+[[Languages.es.menu.main]]
+  name = "Fotos"
+  url = "#photos"
+  weight = 5
 
 [[Languages.es.menu.main]]
   name = "Contacto"
