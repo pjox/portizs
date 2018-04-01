@@ -10,7 +10,7 @@ title = "Pedro J. Ortiz"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 Pedro J. Ortiz"
+copyright = "Pedro J. Ortiz &copy; 2018"
 
 theme = "academic"
 enableEmoji = true
@@ -51,11 +51,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Pedro J. Ortiz."
-  role = "Mathematician"
+  role = "Mathematician/Intern"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  # organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "INRIA", url = "https://www.inria.fr/en/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -115,7 +115,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = true
+  math = false
 
   # Highlight.js options
   #   highlight
@@ -219,10 +219,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "mailto:contact@pjortiz.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/pjox13"
+  #[[params.social]]
+    #icon = "twitter"
+    #icon_pack = "fa"
+    #link = "//twitter.com/GeorgeCushen"
 
   #[[params.social]]
     #icon = "google-scholar"
@@ -253,15 +253,15 @@ defaultContentLanguageInSubdir = false
   #url = "#publications_selected"
   #weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[menu.main]]
+  #name = "Posts"
+  #url = "#posts"
+  #weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+#[[menu.main]]
+  #name = "Projects"
+  #url = "#projects"
+  #weight = 4
 
 #[[menu.main]]
   #name = "Teaching"
@@ -282,25 +282,26 @@ defaultContentLanguageInSubdir = false
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 [Languages.fr]
-role = "Mathématicien"
+  role = "Mathématicien/Stagiaire"
+  languageCode = "fr"
 
 [Languages.fr.blackfriday]
-angledQuotes = true
+  angledQuotes = true
 
 [[Languages.fr.menu.main]]
   name = "Accueil"
   url = "#about"
   weight = 1
 
-[[Languages.fr.menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[Languages.fr.menu.main]]
+  #name = "Posts"
+  #url = "#posts"
+  #weight = 3
 
-[[Languages.fr.menu.main]]
-  name = "Projets"
-  url = "#projects"
-  weight = 4
+#[[Languages.fr.menu.main]]
+  #name = "Projets"
+  #url = "#projects"
+  #weight = 4
 
 [[Languages.fr.menu.main]]
   name = "Contactez moi"
@@ -308,22 +309,23 @@ angledQuotes = true
   weight = 6
 
 [Languages.es]
-role = "Matemático"
+  role = "Matemático/Practicante"
+  languageCode = "es"
 
 [[Languages.es.menu.main]]
   name = "Home"
   url = "#about"
   weight = 1
 
-[[Languages.es.menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[Languages.es.menu.main]]
+  #name = "Posts"
+  #url = "#posts"
+  #weight = 3
 
-[[Languages.es.menu.main]]
-  name = "Proyectos"
-  url = "#projects"
-  weight = 4
+#[[Languages.es.menu.main]]
+  #name = "Proyectos"
+  #url = "#projects"
+  #weight = 4
 
 [[Languages.es.menu.main]]
   name = "Contacto"

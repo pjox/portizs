@@ -1,25 +1,25 @@
 +++
-
 # Date this page was created.
-date = "2017-04-27"
+date = "2016-04-27"
 
 # Project title.
-title = "Outer Space"
+title = "External Project"
 
 # Project summary to display on homepage.
-summary = "Notes taken from the course « Groupe des automorphismes du groupe libre - Outre espace » given at the University of Aix-Marseille (2017)"
+summary = "An example of linking directly to an external project website using `external_link`."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "Caley.png"
+image_preview = "boards.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["demo"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/pjox/Outre-espace-et-Out-Fn"
+external_link = "http://example.org"
 
 # Does the project detail page use math formatting?
 math = false
 
 +++
+

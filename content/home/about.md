@@ -1,41 +1,36 @@
 +++
 # About/Biography widget.
-
-date = "2016-04-20T00:00:00"
-draft = false
-
 widget = "about"
+active = true
+date = "2018-04-01T00:00:00"
 
 # Order that this section will appear in.
-weight = 1
+weight = 5
 
 # List your academic interests.
 [interests]
   interests = [
-    "Arithmetic Geometry",
     "Artificial Intelligence",
-    "Complex Algebraic Geometry",
-    "Cryptography",
     "Deep Learning",
-]
+    "Text Mining",
+    "Complex Algebraic Geometry"
+  ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "MSc in Mathematics"
-  institution = "Aix-Marseille University"
+  institution = "Aix-Marseille Université"
   year = 2017
 
 [[education.courses]]
   course = "BSc in Mathematics"
-  institution = "National University of Colombia"
+  institution = "Universidad Nacional de Colombia"
   year = 2016
  
 +++
 
-# Biography
+# About me
 
-I’m a mathematician interested in Arithmetic Geometry, Artificial Intelligence, Complex Algebraic Geometry, Cryptography, and Deep Learning.
+I’m a mathematician and intern at the [INRIA](https://www.inria.fr/en/).
 
-I've worked in Complex Geometry, Algebraic Geometry and Arithmetic Geometry.
-
-In my spare time, I drink coffee, code and play [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
+I love coffee, coding and playing [Go](http://en.wikipedia.org/wiki/Go_%28game%29).

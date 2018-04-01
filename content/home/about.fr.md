@@ -1,41 +1,36 @@
 +++
 # About/Biography widget.
-
-date = "2016-04-20T00:00:00"
-draft = false
-
 widget = "about"
+active = true
+date = "2018-04-01T00:00:00"
 
 # Order that this section will appear in.
-weight = 1
+weight = 5
 
 # List your academic interests.
 [interests]
   interests = [
     "Apprentissage automatique",
     "Apprentissage profond",
-    "Cryptographie",
-    "Géométrie arithmétique",
-    "Géométrie complexe"
-]
+    "Text Mining",
+    "Géométrie algébrique complexe"
+  ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "M2 en Mathematics"
+  course = "M2 en Mathématiques"
   institution = "Aix-Marseille Université"
   year = 2017
 
 [[education.courses]]
-  course = "BSc in Mathematics"
-  institution = "Université nationale de Colombie"
+  course = "Bac+4 en Mathématiques"
+  institution = "Universidad Nacional de Colombia"
   year = 2016
  
 +++
 
 # À propos de moi
 
-Je suis un mathématicien interesé par l'apprentissage automatique, l'apprentissage profond, la cryptographie, la géométrie arithmétique et la géométrie complexe.
+Je suis mathématicien et stagiaire à l'[INRIA](https://www.inria.fr/).
 
-J'ai travaillé en géométrie complexe, géométrie algébrique et en géométrie arithmétique.
-
-J'aime le café, la programmation et le jeu [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
+J’aime le café, la programmation et le jeu de [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
