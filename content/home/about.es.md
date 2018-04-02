@@ -33,4 +33,4 @@ weight = 5
 
 Soy matemático y practicante en el [INRIA](https://www.inria.fr/en/).
 
-Me encanta el café, programar y jugar [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
+Me encanta el café, programar y jugar [Go](https://es.wikipedia.org/wiki/Go).

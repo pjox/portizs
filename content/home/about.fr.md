@@ -33,4 +33,4 @@ weight = 5
 
 Je suis mathématicien et stagiaire à l'[INRIA](https://www.inria.fr/).
 
-J’aime le café, la programmation et le jeu de [Go](http://en.wikipedia.org/wiki/Go_%28game%29).
+J’aime le café, la programmation et le jeu de [Go](https://fr.wikipedia.org/wiki/Go_(jeu)).
