@@ -234,6 +234,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//github.com/pjox"
 
+  [[params.social]]
+    icon = "file-text"
+    icon_pack = "fa"
+    link = "/files/CVPedroOrtiz.pdf"
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
