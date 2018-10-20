@@ -2,11 +2,11 @@
 {{ $page := .page }}
 
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ if not (eq (len $.Site.Taxonomies.tags) 0) }}
@@ -24,7 +24,7 @@
           {{ $tagCount := len $taxonomy.Pages }}
           {{ $weight := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
           {{ $fontSize := add $fontSmall (mul (sub $fontBig $fontSmall) $weight) }}
-          <a href="{{ ($.Site.GetPage "taxonomyTerm" "tags" $name).Permalink }}" style="font-size:{{ $fontSize }}rem">{{ $name }}</a>
+          <a href="{{ ($.Site.GetPage (printf "tags/%s" $name)).RelPermalink }}" style="font-size:{{ $fontSize }}rem">{{ $name }}</a>
         {{ end }}
       </div>
     {{ end }}

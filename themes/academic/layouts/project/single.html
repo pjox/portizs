@@ -3,20 +3,11 @@
 
 <article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
-  {{ partial "header_image.html" . }}
+  {{ partial "page_header.html" . }}
 
   <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">{{ .Title }}</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        {{ partial "share.html" . }}
-      </span>
-    </div>
-
     {{ with .Params.external_link }}
-    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank" rel="noopener">{{ i18n "open_project_site" }}</a>
+    <a class="btn btn-outline-primary my-1" href="{{ . }}" target="_blank" rel="noopener">{{ i18n "open_project_site" }}</a>
     {{ end }}
 
     <div class="article-style" itemprop="articleBody">
@@ -26,8 +17,14 @@
     {{ partial "tags.html" . }}
 
     {{ $page := . }}
-    {{ $project := .File.TranslationBaseName }}
-    {{ $project_path := printf "%s/%s/" .Section $project }}
+    {{ $project := .Slug }}
+    {{ if not $project }}{{/* If user did not explicitly set `slug` in front matter. */}}
+    {{ $project = .File.TranslationBaseName }}
+    {{ end }}
+    {{ if eq $project "index" }}{{/* Check if using dir-based page bundles. */}}
+    {{ $project = delimit (last 1 (split (substr .Dir 0 -1) "/")) "" }}
+    {{ end }}
+    {{ $project_path := .RelPermalink }}
 
     {{ if (.Site.Params.projects.list_children | default true) }}
       {{ $items := where (where .Site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
@@ -42,6 +39,8 @@
             {{ partial "publication_li_apa" . }}
           {{ else if eq $page.Site.Params.projects.publication_format 3 }}
             {{ partial "publication_li_mla" . }}
+          {{ else if eq $page.Site.Params.projects.publication_format 4 }}
+            {{ partial "publication_li_stream" . }}
           {{ else }}
             {{ partial "publication_li_simple" . }}
           {{ end }}
@@ -54,7 +53,13 @@
       {{ if ge $talks_len 1 }}
         <h2>{{ (i18n "talks") }}</h2>
         {{ range sort $items ".Params.time_start" "desc" }}
-          {{ partial "talk_li_simple" . }}
+          {{ if eq $page.Site.Params.projects.talk_format 1 }}
+            {{ partial "talk_li_detailed" . }}
+          {{ else if eq $page.Site.Params.projects.talk_format 2 }}
+            {{ partial "talk_li_stream" . }}
+          {{ else }}
+            {{ partial "talk_li_simple" . }}
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}
