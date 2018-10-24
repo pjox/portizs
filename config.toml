@@ -377,12 +377,28 @@ enableGitInfo = false
   name = "Contactez moi"
   url = "#contact"
   weight = 6
+[[languages.fr.menu.main]]
+  name = "CV"
+  url = "../files/cv_fr.pdf"
+  weight = 7
 
 [languages.es]
   languageCode = "es"
   contentDir = "content/spanish"
 [languages.es.params]
   role = "Doctorante"
+[[languages.es.params.social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:pedro.ortiz@inria.fr"
+[[languages.es.params.social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "//github.com/pjox"
+[[languages.es.params.social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "/files/cv.pdf"
 [[languages.es.menu.main]]
   name = "Home"
   url = "#about"
@@ -391,4 +407,7 @@ enableGitInfo = false
   name = "Contacto"
   url = "#contact"
   weight = 6
-
+[[languages.es.menu.main]]
+  name = "CV"
+  url = "../files/cv.pdf"
+  weight = 7
