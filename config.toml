@@ -363,7 +363,7 @@ enableGitInfo = false
 [[languages.fr.params.social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "/files/cv_fr.pdf"
+  link = "../files/cv_fr.pdf"
 [languages.fr.blackfriday]
   angledQuotes = true
   hrefTargetBlank = true  # `true` opens external links in a new tab.
@@ -398,7 +398,7 @@ enableGitInfo = false
 [[languages.es.params.social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "/files/cv.pdf"
+  link = "../files/cv.pdf"
 [[languages.es.menu.main]]
   name = "Home"
   url = "#about"
