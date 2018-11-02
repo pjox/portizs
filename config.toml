@@ -270,6 +270,11 @@ enableGitInfo = false
     icon_pack = "ai"
     link = "/files/cv.pdf"
 
+  [[params.social]]
+    icon = "key"
+    icon_pack = "fas"
+    link = "/files/PedroJOrtiz.asc"
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -364,6 +369,10 @@ enableGitInfo = false
   icon = "cv"
   icon_pack = "ai"
   link = "../files/cv_fr.pdf"
+[[languages.fr.params.social]]
+    icon = "key"
+    icon_pack = "fas"
+    link = "../files/PedroJOrtiz.asc"
 [languages.fr.blackfriday]
   angledQuotes = true
   hrefTargetBlank = true  # `true` opens external links in a new tab.
@@ -399,6 +408,10 @@ enableGitInfo = false
   icon = "cv"
   icon_pack = "ai"
   link = "../files/cv.pdf"
+[[languages.es.params.social]]
+    icon = "key"
+    icon_pack = "fas"
+    link = "../files/PedroJOrtiz.asc"
 [[languages.es.menu.main]]
   name = "Home"
   url = "#about"

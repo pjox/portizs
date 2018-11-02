@@ -24,12 +24,16 @@
       {{ if in (slice "fab" "fas" "far" "fal") $pack }}
         {{ $pack_prefix = "fa" }}
       {{ end }}
-      {{ $target := "target=\"_blank\" rel=\"noopener\"" }}
-      {{ if not (urls.Parse .link).Scheme }}
-        {{ $target = "" }}
+      {{ $link := .link }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = .link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
       <li>
-        <a itemprop="sameAs" href="{{ .link | relLangURL | safeURL }}" {{ $target | safeHTMLAttr }}>
+        <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
           <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
         </a>
       </li>
