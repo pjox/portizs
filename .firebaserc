@@ -1,5 +1,20 @@
 {
   "projects": {
     "default": "pjortiz-76cd8"
+  },
+  "targets": {
+    "pjortiz-76cd8": {
+      "hosting": {
+        "pjortiz": [
+          "pjortiz"
+        ],
+        "pjortiz-fr": [
+          "pjortiz-fr"
+        ],
+        "pjortiz-es": [
+          "pjortiz-es"
+        ]
+      }
+    }
   }
 }
