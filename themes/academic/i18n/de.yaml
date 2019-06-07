@@ -43,7 +43,7 @@
 - id: interests
   translation: Interessen
 - id: education
-  translation: Education
+  translation: Bildung
 - id: user_profile_latest
   translation: Aktuellste
 - id: see_certificate
@@ -51,7 +51,7 @@
 - id: present
   translation: Aktuell
 - id: more_pages
-  translation: See all
+  translation: Alle anzeigen
 - id: more_posts
   translation: Weitere Blogbeiträge
 - id: more_talks
@@ -83,7 +83,7 @@
 - id: location
   translation: Ort
 - id: pub_uncat
-  translation: Unketegorisiert
+  translation: Unkategorisiert
 - id: pub_conf
   translation: Konferenzpapier
 - id: pub_journal
@@ -121,7 +121,7 @@
 - id: page_not_found
   translation: Seite nicht gefunden
 - id: 404_recommendations
-  translation: Suchst du vielleicht nach einer der folgenden Seiten?
+  translation: Suchen Sie vielleicht nach einer der folgenden Seiten?
 - id: cookie_message
   translation: Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies.
 - id: cookie_dismiss

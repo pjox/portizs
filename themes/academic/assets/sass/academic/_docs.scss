@@ -206,7 +206,6 @@
   font-size: .875rem;
   font-weight: 600;
   padding-left: calc(1.5rem + 1px);
-  margin-bottom: .5rem;
 }
 
 #TableOfContents {
@@ -239,6 +238,12 @@ ul.toc-top {
 .toc-top li a:hover {
   color: $sta-primary;
   text-decoration: none;
+}
+
+/* ScrollSpy active link style. */
+#TableOfContents li a.active {
+  color: $sta-primary;
+  font-weight: 700;
 }
 
 /* Docs achnorjs links. */
