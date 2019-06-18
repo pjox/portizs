@@ -35,7 +35,7 @@ links:
   url: https://twitter.com/pjox13
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "/files/ICHLL10.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
