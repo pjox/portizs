@@ -2,7 +2,7 @@
 title: Asynchronous Pipelines for Processing Huge Corpora on Medium to Low Resource Infrastructures
 event: 7th Workshop on the Challenges in the Management of Large Corpora
 event_url: http://corpora.ids-mannheim.de/cmlc-2019.html
-location: Cardiff, UK
+location: Cardiff, Reino Unido
 # summary: A talk about automatic enrichment of dictionaries.
 # abstract: "The ​Dictionnaire Universel ​(DU) is an encyclopaedic dictionary originally written by Antoine Furetière around 1676-78, later revised and improved by the Protestant jurist Henri Basnage de Beauval who expanded, corrected and included terms of arts, crafts and sciences, into the ​Dictionnaire.
 #The aim of the ​BASNUM project is to digitize the ​DU ​in its second edition rewritten by Basnage de Beauval,​ to analyse it with computational methods in order to better assess the importance of this work for the evolution of sciences and mentalities in the 18th century, and to contribute to the contemporary movement for creating innovative and data-driven computational methods for text digitization, encoding and analysis.
@@ -18,7 +18,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-01-01T00:00:00Z"
 
-authors: [Pedro Javier Ortiz Suárez, Laurent Romary, Benoît Sagot]
+authors: [admin, Laurent Romary, Benoît Sagot]
 tags: []
 
 # Is this a featured talk? (true/false)
