@@ -18,7 +18,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-01-01T00:00:00Z"
 
-authors: [admin, Laurent Romary, Benoît Sagot]
+authors: [admin, Benoît Sagot, Laurent Romary]
 tags: []
 
 # Is this a featured talk? (true/false)

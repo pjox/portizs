@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Pedro J. Ortiz
+name: Pedro Javier Ortiz Suárez
 
 # Username (this should match the folder name)
 authors:
@@ -19,7 +19,7 @@ organizations:
 - name: Inria
   url: "https://www.inria.fr/"
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Machine Learning, Deep Learning and NLP.
+bio: Je suis doctorant en informatique à Sorbonne Université et à l'équipe de recherche ALMAnaCH à Inria
 
 interests:
 - Machine Learning
