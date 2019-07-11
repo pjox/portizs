@@ -159,7 +159,7 @@ figcaption h4 {
 
 pre,
 code {
-  font-family: '$sta-font-mono', monospace;
+  font-family: $sta-font-mono, monospace;
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -278,9 +278,10 @@ small,
 
 a[data-fancybox] {
   text-decoration: none;
+  cursor: zoom-in;
 }
 
-a[data-fancybox] img {
+.gallery a[data-fancybox] img {
   height: 250px;
   max-width: inherit;
   display: inherit;
