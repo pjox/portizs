@@ -1,13 +1,11 @@
 ---
-title: Asynchronous Pipelines for Processing Huge Corpora on Medium to Low Resource Infrastructures
+title: Asynchronous Pipeline for Processing Huge Corpora on Medium to Low Resource Infrastructures
 event: 7th Workshop on the Challenges in the Management of Large Corpora
 event_url: http://corpora.ids-mannheim.de/cmlc-2019.html
 location: Cardiff, UK
-# summary: A talk about automatic enrichment of dictionaries.
-# abstract: "The ​Dictionnaire Universel ​(DU) is an encyclopaedic dictionary originally written by Antoine Furetière around 1676-78, later revised and improved by the Protestant jurist Henri Basnage de Beauval who expanded, corrected and included terms of arts, crafts and sciences, into the ​Dictionnaire.
-#The aim of the ​BASNUM project is to digitize the ​DU ​in its second edition rewritten by Basnage de Beauval,​ to analyse it with computational methods in order to better assess the importance of this work for the evolution of sciences and mentalities in the 18th century, and to contribute to the contemporary movement for creating innovative and data-driven computational methods for text digitization, encoding and analysis.
-#Based on the experience acquired within the research group, an enrichment workflow based upon a series of Natural Language Processing processes is being set up to be applied to Basnage's work. This includes, among others, automatic identification of the dictionary structure (macro-, meso- and microstructure), named-entity recognition (in particular persons and locations), classification of dictionary entries, detection and study of polysemy markers, tracking and classification of quotation use (bibliographic references), scoring semantic similarity between the ​DU ​and other dictionaries. The main challenges being the lack of available annotated data in order to train machine learning models, decreased accuracy when using modern pre-trained models due to the differences between present-day and 18t​ h century French, and even unreliable or low quality OCRisation.
-#The talk describes methods that are useful to tackle these issues in order to prepare the the ​DU for automatic enrichment going beyond what current available tools like Grobid-dictionaries can do, thanks to the advent of deep learning NLP models. The paper also describes how these methods could be applied to other dictionaries or even other types of ancient texts."
+summary: We propose a new pipeline to filter, clean and classify Common Crawl by language, we publish the final corpus under the name OSCAR.
+abstract: Common Crawl is a considerably large, heterogeneous multilingual corpus comprised of crawled documents from the internet, surpassing 20TB of data and distributed as a set of more than 50 thousand plain text files where each contains many documents written in a wide variety of languages. Even though each document has a metadata block associated to it, this data lacks any information about the language in which each document is written, making it extremely difficult to use Common Crawl for monolingual applications. We propose a general, highly parallel, multithreaded pipeline to clean and classify Common Crawl by language; we specifically design it so that it runs efficiently on medium to low resource infrastructures where I/O speeds are the main constraint. We develop the pipeline so that it can be easily reapplied to any kind of  heterogeneous corpus and so that it can be parameterised to a wide range of infrastructures. We also distribute a 6.3TB version of Common Crawl, filtered, classified by language, shuffled at line level in order to avoid copyright issues, and ready to be used for NLP applications.
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -22,7 +20,7 @@ authors: [admin, Benoît Sagot, Laurent Romary]
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 #image:
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -33,8 +31,8 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pjox13
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/pjox/goclassy"
+url_pdf: "http://corpora.ids-mannheim.de/CMLC7-final/CMLC-7_2019-Oritz_et_al.pdf"
 url_slides: ""
 url_video: ""
 
