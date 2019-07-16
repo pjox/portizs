@@ -18,6 +18,10 @@
   url = "#about"
   weight = 1
 [[fr.menu.main]]
+   name = "Publications"
+   url = "#featured"
+   weight = 4
+[[fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
   weight = 6
@@ -34,6 +38,10 @@
   name = "Home"
   url = "#about"
   weight = 1
+[[es.menu.main]]
+   name = "Publicaciones"
+   url = "#featured"
+   weight = 4
 [[es.menu.main]]
   name = "Contacto"
   url = "#contact"
