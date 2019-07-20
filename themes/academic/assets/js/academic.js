@@ -404,6 +404,20 @@
     $('#TableOfContents li').addClass('nav-item');
     $('#TableOfContents li a').addClass('nav-link');
 
+    // Fix Mmark task lists (remove bullet points).
+    $("input[type='checkbox'][disabled]").parents('ul').addClass('task-list');
+
+    // Fix Mermaid.js clash with Highlight.js.
+    let mermaids = [];
+    [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+    for (i = 0; i < mermaids.length; i++) {
+      $(mermaids[i]).unwrap('pre');  // Remove <pre> wrapper.
+      $(mermaids[i]).replaceWith(function(){
+        // Convert <code> block to <div> and add `mermaid` class so that Mermaid will parse it.
+        return $("<div />").append($(this).contents()).addClass('mermaid');
+      });
+    }
+
     // Get theme variation (day/night).
     let defaultThemeVariation;
     if ($('body').hasClass('dark')) {

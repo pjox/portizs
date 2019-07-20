@@ -33,7 +33,7 @@ links:
   url: http://corpora.ids-mannheim.de/cmlc-2019.html
 url_pdf: http://corpora.ids-mannheim.de/CMLC7-final/CMLC-7_2019-Oritz_et_al.pdf
 url_code: 'https://github.com/pjox/goclassy'
-url_dataset: 'https://team.inria.fr/almanach/fr/oscar/'
+url_dataset: 'https://traces1.inria.fr/oscar/'
 #url_poster: '#'
 #url_project: ''
 #url_slides: ''
