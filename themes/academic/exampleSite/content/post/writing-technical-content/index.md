@@ -4,6 +4,9 @@ date: 2019-07-12
 math: true
 diagram: true
 markup: mmark
+image:
+  placement: 3
+  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
 Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
@@ -38,7 +41,7 @@ Academic supports a Markdown extension for $\LaTeX$ math. You can enable this fe
 
 To render *inline* or *block* math, wrap your LaTeX math with `$$...$$`.
 
-Example math block:
+Example **math block**:
 
 ```tex
 $$\gamma_{n} = \frac{ 
@@ -51,7 +54,19 @@ renders as
 
 $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
 
-Example inline math `$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$` renders as $$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$ .
+Example **inline math** `$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$` renders as $$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$ .
+
+Example **multi-line math** using the `\\` math linebreak:
+
+```tex
+$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
+1-p_0^* & \text {if }k=0.\end{cases}$$
+```
+
+renders as
+
+$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
+1-p_0^* & \text {if }k=0.\end{cases}$$
 
 ### Diagrams
 
@@ -171,12 +186,14 @@ renders as
 
 ### Asides
 
+Academic supports a Markdown extension for asides, also referred to as *notices* or *hints*. By prefixing a paragraph with `A>`, it will render as an aside. You can enable this feature by adding `markup: mmark` to your page front matter, or alternatively using the [*Alert* shortcode](https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts).
+
 ```markdown
-A> A Markdown aside is equivalent to using the Alert Shortcode, but simpler to use.
+A> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 ```
 
 renders as
 
-A> A Markdown aside is equivalent to using the Alert Shortcode, but simpler to use.
+A> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 
 ### Did you find this page helpful? Consider sharing it 🙌

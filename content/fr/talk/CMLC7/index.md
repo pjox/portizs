@@ -33,7 +33,7 @@ links:
   url: https://twitter.com/pjox13
 url_code: "https://github.com/pjox/goclassy"
 url_pdf: "http://corpora.ids-mannheim.de/CMLC7-final/CMLC-7_2019-Oritz_et_al.pdf"
-url_slides: ""
+url_slides: "/files/CMLC_7_slides.pdf"
 url_video: ""
 
 # Markdown Slides (optional).

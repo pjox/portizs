@@ -36,7 +36,7 @@ url_code: 'https://github.com/pjox/goclassy'
 url_dataset: 'https://traces1.inria.fr/oscar/'
 #url_poster: '#'
 #url_project: ''
-#url_slides: ''
+url_slides: '/files/CMLC_7_slides.pdf'
 #url_source: '#'
 #url_video: '#'
 
