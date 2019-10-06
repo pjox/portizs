@@ -1,8 +1,9 @@
 {
     "spellright.language": [
-        "Spanish"
+        "fr"
     ],
     "spellright.documentTypes": [
-        "latex"
+        "latex",
+        "markdown"
     ]
 }

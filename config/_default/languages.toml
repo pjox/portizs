@@ -22,6 +22,10 @@
    url = "#featured"
    weight = 4
 [[fr.menu.main]]
+   name = "Cours"
+   url = "courses/"
+   weight = 5
+[[fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
   weight = 6
