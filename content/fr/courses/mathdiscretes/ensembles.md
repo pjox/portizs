@@ -7,7 +7,7 @@ date: "2019-10-06T00:00:00+01:00"
 draft: false
 menu:
   mathdiscretes:
-    parent: Excercices
+    parent: exercices
     weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -39,15 +39,15 @@ Soient $A, B, C$ trois parties de $E$.
 
 1.  Montrer que $A \cap \overline{A \cap B} = A \cap \overline{B}$.
    
-    **Remarque :** Utilisez les lois de Morgan pour réécrire $A \cap \overline{A \cap B}$, après utilisez la distributivité de $\cap$. Utilisez aussi le fait que $A \cap \overline{A} = \emptyset$.
+    **Indication :** Utilisez les lois de Morgan pour réécrire $A \cap \overline{A \cap B}$, après utilisez la distributivité de $\cap$. Utilisez aussi le fait que $A \cap \overline{A} = \emptyset$.
 
 2.  Montrer que si $A \cap B = A \cap C$ alors $A \cap \overline{B} = A \cap \overline{C}$
    
-    **Remarque :** Rappelons que si $A \cap B = A \cap C$ alors $\overline{A \cap B} = \overline{A \cap C}$, après utilisez 1.
+    **Indication :** Rappelons que si $A \cap B = A \cap C$ alors $\overline{A \cap B} = \overline{A \cap C}$, après utilisez 1.
 
-3.  En deduire que $$A \cap \overline{B} = A \cap \overline{C} \text{ si et seulement si } A \cap B = A \cap C$$
+3.  En déduire que $$A \cap \overline{B} = A \cap \overline{C} \text{ si et seulement si } A \cap B = A \cap C$$
 
-    **Remarque :** Notez que $\overline{\overline{X}} = X$ et utilisez 2.
+    **Indication :** Notez que $\overline{\overline{X}} = X$ et utilisez 2.
 
 ## Exercice 10
 
@@ -55,4 +55,4 @@ Soit $T$ la relation des réels $\mathbb{R}$ définie par $$xTy \text{ sii } 0 \
 
 1.  Montrer que $T^{-1}.T = \\{(x,y) \mid |x - z| \le 1\\}$
 
-    **Remarque :** Montrez que par définition de la composition, $$T^{-1}.T = \\{(x,y) \mid \exists y \in \mathbb{R} \text{ t.q. } 0 \le y -x \le 1, 0 \le y - z \le 1\\}$$ Après, supposons $S = \\{(x,y) \mid |x - z| \le 1\\}$ et montrez que $S = T^{-1}.T$. Pour montrer $T^{-1}.T \subseteq S$, commencez par montrer que $$0 \le y - x \le 1, 0 \le y - z \le 1 \Longrightarrow x - z \le 1.$$ Mais aussi que $$0 \le y - x \le 1, 0 \le y - z \le 1 \Longrightarrow -1 \le x - z.$$ Pour montrer $S \subseteq T^{-1}.T$, prenez $(x,z) \in S$ et $y = \max(x,z)$. Essayez de montrer aussi que $T.T^{-1} = \\{(x,y) \mid |x - z| \le 1\\}$.
+    **Indication :** Montrez que par définition de la composition, $$T^{-1}.T = \\{(x,y) \mid \exists y \in \mathbb{R} \text{ t.q. } 0 \le y -x \le 1, 0 \le y - z \le 1\\}$$ Après, supposons $S = \\{(x,y) \mid |x - z| \le 1\\}$ et montrez que $S = T^{-1}.T$. Pour montrer $T^{-1}.T \subseteq S$, commencez par montrer que $$0 \le y - x \le 1, 0 \le y - z \le 1 \Longrightarrow x - z \le 1.$$ Mais aussi que $$0 \le y - x \le 1, 0 \le y - z \le 1 \Longrightarrow -1 \le x - z.$$ Pour montrer $S \subseteq T^{-1}.T$, prenez $(x,z) \in S$ et $y = \max(x,z)$. Essayez de montrer aussi que $T.T^{-1} = \\{(x,y) \mid |x - z| \le 1\\}$.

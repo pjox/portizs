@@ -3,15 +3,15 @@ title: Fonctions et opérations
 linktitle: Fonctions et opérations
 toc: true
 type: docs
-date: "2019-09-30T00:00:00+01:00"
+date: "2019-10-20T00:00:00+01:00"
 draft: false
 menu:
   mathdiscretes:
-    parent: Excercices
+    parent: exercices
     weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 2
 
 gallery_item:
 - album: gallery

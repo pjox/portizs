@@ -34,6 +34,16 @@
   url = "../files/cv_fr.pdf"
   weight = 7
 
+# Additional Menus
+[[fr.menu.mathdiscretes]]
+  name = "Exercices"
+  weight = 10
+  identifier = "exercices"
+[[fr.menu.mathdiscretes]]
+  name = "Contrôle continu"
+  weight = 20
+  identifier = "control"
+
 [es]
   languageCode = "es"
   baseurl = "https://www.pjortiz.co/"
