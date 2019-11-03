@@ -100,40 +100,22 @@
   <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>
   {{ end }}
 
-  {{ $css_options := (dict "targetPath" "css/academic.css" "outputStyle" "compressed") }}
-  {{ $sass_template := resources.Get "sass/main.scss" }}
-  {{ $style := $sass_template | resources.ExecuteAsTemplate "main_parsed.scss" . | toCSS $css_options | minify | fingerprint "md5" }}
+  {{ $css_comment := printf "/*!* Source Themes Academic v%s (https://sourcethemes.com/academic/) */\n" site.Data.academic.version }}
+  {{ $css_bundle_head := $css_comment | resources.FromString "css/bundle-head.css" }}
+  {{ $css_options := dict "targetPath" "css/academic.css" }}
+  {{- if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") -}}
+    {{- $css_options = merge $css_options (dict "outputStyle" "compressed") -}}
+  {{- end -}}
+  {{ $sass_template := resources.Get "scss/main.scss" }}
+  {{ $style := $sass_template | resources.ExecuteAsTemplate "main_parsed.scss" . | toCSS $css_options }}
+  {{ $style := slice $css_bundle_head $style | resources.Concat "css/academic.css" }}
+  {{- if (eq (getenv "HUGO_ENV") "production") -}}
+    {{- $style = $style | minify | fingerprint "md5" -}}
+  {{- end -}}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-  {{ if site.Params.plugins_css }}
-    {{ $css_comment := printf "/* Source Themes Academic v%s | https://sourcethemes.com/academic/ */\n" site.Data.academic.version }}
-    {{ $css_bundle_head := $css_comment | resources.FromString "css/bundle-head.css" }}
-    {{ $css_bundle := slice }}
-    {{ range site.Params.plugins_css }}
-      {{ $css_bundle = $css_bundle | append (resources.Get (printf "css/%s.css" .)) }}
-    {{ end }}
-    {{ $css_bundle := $css_bundle | resources.Concat "css/academic-bundle-pre.css" | minify }}
-    {{ $css_bundle := slice $css_bundle_head $css_bundle | resources.Concat "css/academic.css" | fingerprint "md5" }}
-    <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
-  {{ end }}
-
-  {{ if not site.IsServer }}
-  {{ if site.GoogleAnalytics }}
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.GoogleAnalytics }}', 'auto');
-      {{ if site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    {{ if ($scr.Get "use_cdn") }}
-    {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.autotrack.url $js.autotrack.version) $js.autotrack.sri | safeHTML }}
-    {{ end }}
-  {{ end }}
-  {{ end }}
+  {{ partial "marketing/google_analytics" . }}
+  {{ partial "marketing/google_tag_manager" . }}
 
   {{ with .OutputFormats.Get "RSS" }}
   <link rel="alternate" href="{{.RelPermalink}}" type="application/rss+xml" title="{{site.Title}}">

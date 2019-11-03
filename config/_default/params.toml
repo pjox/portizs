@@ -75,7 +75,7 @@ privacy_pack = true
 
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", editable = {docs = false}}
+edit_page = {repo_url = "https://github.com/pjox/pjortiz", repo_branch = "master", editable = {docs = false, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -161,10 +161,11 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = false
 
+# Link authors to their profile page? (true/false)
+link_authors = true
+
 # Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
 plugins_js  = []
 
 # Configuration of publication pages.
@@ -244,3 +245,10 @@ plugins_js  = []
   engine = 0
   api_key = ""
   zoom = 15
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = "UA-99425319-1"
+  google_tag_manager = ""
