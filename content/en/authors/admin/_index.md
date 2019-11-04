@@ -56,6 +56,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?user=5sNdyvkAAAAJ&hl=en
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-0343-8852
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
