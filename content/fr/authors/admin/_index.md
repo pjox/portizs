@@ -55,6 +55,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?user=5sNdyvkAAAAJ&hl=en
+- icon: arxiv
+  icon_pack: ai
+  link: https://arxiv.org/search/cs?searchtype=author&query=Suárez%2C+P+J+O
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-0343-8852
