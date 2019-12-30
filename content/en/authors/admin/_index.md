@@ -50,21 +50,27 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/pjox13
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?user=5sNdyvkAAAAJ&hl=en
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/Pedro-Javier-Ortiz-Suárez/147846651
 - icon: arxiv
   icon_pack: ai
   link: https://arxiv.org/search/cs?searchtype=author&query=Suárez%2C+P+J+O
+- icon: dblp
+  icon_pack: ai
+  link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-0343-8852  
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/pjox13
 - icon: "key"
   icon_pack: "fas"
   link: files/PedroJOrtiz.asc

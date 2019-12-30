@@ -5,13 +5,13 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-  baseurl = "https://www.pjortiz.com/"
+  baseurl = "https://pjortiz.com/"
   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
 [fr]
   languageCode = "fr"
-  baseurl = "https://www.pjortiz.fr/"
+  baseurl = "https://pjortiz.fr/"
   contentDir = "content/fr"
 [[fr.menu.main]]
   name = "Accueil"
@@ -46,7 +46,7 @@
 
 [es]
   languageCode = "es"
-  baseurl = "https://www.pjortiz.co/"
+  baseurl = "https://pjortiz.co/"
   contentDir = "content/es"
 [[es.menu.main]]
   name = "Home"

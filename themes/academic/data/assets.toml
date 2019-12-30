@@ -19,6 +19,7 @@
   version = "3"
   sri = ""  # No SRI as dynamically generated.
   url = "https://cdn.jsdelivr.net/npm/mathjax@%s/es5/tex-chtml.js"
+  async = true
 [js.isotope]
   version = "3.0.6"
   sri = "sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI="
@@ -56,9 +57,18 @@
   sri = "sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck="
   url = "https://cdnjs.cloudflare.com/ajax/libs/anchor-js/%s/anchor.min.js"
 [js.mermaid]
-  version = "8.3.1"
-  sri = "sha256-vOIuDSYDirTfyr+S2MjFnhOz6Rgiz4ODFAHATG0rFxw="
+  version = "8.4.3"
+  sri = ""  # SRI unavailable.
   url = "https://cdnjs.cloudflare.com/ajax/libs/mermaid/%s/mermaid.min.js"
+[js.lazysizes]
+  version = "5.1.2"
+  sri = "sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A="
+  url = "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/%s/lazysizes.min.js"
+  async = true
+[js.cookieconsent]
+  version = "3.1.1"
+  sri = "sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ="
+  url = "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/%s/cookieconsent.min.js"
 
 # CSS
 
@@ -90,3 +100,7 @@
   version = "9.15.10"
   sri = ""  # No SRI as highlight style is determined at run time.
   url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/styles/%s.min.css"
+[css.cookieconsent]
+  version = "3.1.1"
+  sri = "sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q="
+  url = "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/%s/cookieconsent.min.css"
