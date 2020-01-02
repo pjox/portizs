@@ -58,15 +58,21 @@ social:
 - icon: arxiv
   icon_pack: ai
   link: https://arxiv.org/search/cs?searchtype=author&query=Suárez%2C+P+J+O
-- icon: dblp
+- icon: researchgate
   icon_pack: ai
-  link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz
+  link: https://www.researchgate.net/profile/Pedro_Ortiz_Suarez
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-0343-8852
+- icon: dblp
+  icon_pack: ai
+  link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/pedro-j-ortiz/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/pjox13
