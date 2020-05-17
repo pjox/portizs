@@ -13,6 +13,9 @@
   languageCode = "fr"
   baseurl = "https://pjortiz.fr/"
   contentDir = "content/fr"
+[fr.marketing]
+  google_analytics = "G-10ZMR236LE"
+  google_tag_manager = ""
 [[fr.menu.main]]
   name = "Accueil"
   url = "#about"
@@ -56,6 +59,9 @@
   languageCode = "es"
   baseurl = "https://pjortiz.co/"
   contentDir = "content/es"
+[es.marketing]
+  google_analytics = "G-3PS66SZZMH"
+  google_tag_manager = ""
 [[es.menu.main]]
   name = "Home"
   url = "#about"

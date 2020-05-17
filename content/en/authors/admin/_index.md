@@ -67,7 +67,10 @@ social:
   link: https://orcid.org/0000-0003-0343-8852
 - icon: dblp
   icon_pack: ai
-  link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz  
+  link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz
+# - icon: hal
+#   icon_pack: custom
+#   link: https://cv.archives-ouvertes.fr/pedro-ortiz-suarez
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
