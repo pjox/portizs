@@ -32,9 +32,9 @@ featured: false
 links:
 - name: LREC 2020
   url: https://lrec2020.lrec-conf.org/en/
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+url_pdf: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.569.pdf
 #url_code: 'https://github.com/pjox/goclassy'
-#url_dataset: 'https://traces1.inria.fr/oscar/'
+#url_dataset: 'https://oscar-corpus.com/'
 #url_poster: '#'
 #url_project: ''
 #url_slides: '/files/CMLC_7_slides.pdf'

@@ -22,17 +22,25 @@
    url = "#featured"
    weight = 4
 [[fr.menu.main]]
+   name = "Présentations"
+   url = "#talks"
+   weight = 5
+[[fr.menu.main]]
+   name = "Projets"
+   url = "#projects"
+   weight = 6
+[[fr.menu.main]]
    name = "Cours"
    url = "courses/"
-   weight = 5
+   weight = 7
 [[fr.menu.main]]
   name = "Contactez moi"
   url = "#contact"
-  weight = 6
+  weight = 8
 [[fr.menu.main]]
   name = "CV"
   url = "../files/cv_fr.pdf"
-  weight = 7
+  weight = 9
 
 # Additional Menus
 [[fr.menu.mathdiscretes]]
@@ -55,6 +63,14 @@
 [[es.menu.main]]
    name = "Publicaciones"
    url = "#featured"
+   weight = 2
+[[es.menu.main]]
+   name = "Presentaciones"
+   url = "#talks"
+   weight = 3
+[[es.menu.main]]
+   name = "Proyectos"
+   url = "#projects"
    weight = 4
 [[es.menu.main]]
   name = "Contacto"

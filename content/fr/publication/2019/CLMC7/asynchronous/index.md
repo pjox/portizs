@@ -31,9 +31,13 @@ featured: true
 links:
 - name: CMLC-7
   url: https://ids-pub.bsz-bw.de/frontdoor/index/index/docId/8998
+- name: Website
+  url: https://oscar-corpus.com/
+- name: HAL
+  url: https://hal.inria.fr/hal-02148693
 url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
 url_code: 'https://github.com/pjox/goclassy'
-url_dataset: 'https://traces1.inria.fr/oscar/'
+url_dataset: 'https://oscar-corpus.com/'
 #url_poster: '#'
 #url_project: ''
 url_slides: '/files/CMLC_7_slides.pdf'
