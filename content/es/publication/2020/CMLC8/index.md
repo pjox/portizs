@@ -31,7 +31,9 @@ featured: false
 links:
 - name: CMLC-8
   url: http://corpora.ids-mannheim.de/cmlc-2020.html
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+- name: ACL Anthology
+  url: https://www.aclweb.org/anthology/2020.cmlc-1.3/
+url_pdf: https://www.aclweb.org/anthology/2020.cmlc-1.3.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://traces1.inria.fr/oscar/'
 #url_poster: '#'

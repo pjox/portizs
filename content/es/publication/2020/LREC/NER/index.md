@@ -32,7 +32,13 @@ featured: false
 links:
 - name: LREC 2020
   url: https://lrec2020.lrec-conf.org/en/
-url_pdf: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.569.pdf
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-02617950v2
+- name: arXiv
+  url: https://arxiv.org/abs/2005.13236
+- name: ACL Anthology
+  url: https://www.aclweb.org/anthology/2020.lrec-1.569/
+url_pdf: https://www.aclweb.org/anthology/2020.lrec-1.569.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://oscar-corpus.com/'
 #url_poster: '#'
