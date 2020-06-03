@@ -21,7 +21,7 @@ publication_types: ["1"]
 publication: In *8th Workshop on the Challenges in the Management of Large Corpora*
 publication_short: In *CMLC-8*
 
-abstract: This paper investigates the impact of different types and size of training corpora on language models. By asking the fundamental question of quality versus quantity, we compare four French corpora by pre-training four different {\sc ELMo}s and evaluating them on dependency parsing, POS-tagging and Named Entities Recognition downstream tasks. We present and asses the relevance of a new balanced French corpus, CaBeRnet, that features a representative range of language usage, including a balanced variety of genres (oral transcriptions, newspapers, popular magazines, technical reports, fiction, academic texts), in oral and written styles. We hypothesize that a linguistically representative corpus will allow the language models to be more efficient, and therefore yield better evaluation scores on different evaluation sets and tasks.
+abstract: This paper investigates the impact of different types and size of training corpora on language models. By asking the fundamental question of quality versus quantity, we compare four French corpora by pre-training four different ELMos and evaluating them on dependency parsing, POS-tagging and Named Entities Recognition downstream tasks. We present and asses the relevance of a new balanced French corpus, CaBeRnet, that features a representative range of language usage, including a balanced variety of genres (oral transcriptions, newspapers, popular magazines, technical reports, fiction, academic texts), in oral and written styles. We hypothesize that a linguistically representative corpus will allow the language models to be more efficient, and therefore yield better evaluation scores on different evaluation sets and tasks.
 
 # Summary. An optional shortened abstract.
 summary: We investigate the impact of different types and size of training corpora on language models.
@@ -33,6 +33,8 @@ links:
   url: http://corpora.ids-mannheim.de/cmlc-2020.html
 - name: ACL Anthology
   url: https://www.aclweb.org/anthology/2020.cmlc-1.3/
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-02678358
 url_pdf: https://www.aclweb.org/anthology/2020.cmlc-1.3.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://traces1.inria.fr/oscar/'
@@ -44,10 +46,10 @@ url_pdf: https://www.aclweb.org/anthology/2020.cmlc-1.3.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-#image:
-#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-#  focal_point: ""
-#  preview_only: false
+image:
+ caption: 'Image credit: [**Alix Chagué**](https://alix-tz.github.io/en/index.html)'
+ focal_point: ""
+ preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
