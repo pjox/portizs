@@ -9,6 +9,10 @@ authors:
 - Éric de la Clergerie
 - Benoît Sagot
 - Djamé Seddah
+author_notes:
+- "Contribué à parts égales"
+- "Contribué à parts égales"
+- "Contribué à parts égales"
 date: "2020-06-08T00:00:00Z"
 doi: ""
 
@@ -25,19 +29,23 @@ publication_types: ["1"]
 publication: In *La 27e conférence sur le Traitement Automatique des Langues Naturelles*
 publication_short: In *TALN 2020*
 
-abstract: Contextual word embeddings have become ubiquitous in Natural Language Processing. Until recently, most available models were trained on English data or on the concatanation of corpora in multiple languages. This made the practical use of models in all languages except English very limited. The recent release of monolingual versions of BERT (Devlin et al., 2019) for French established a new state-of-the-art for all evaluated tasks. In this paper, based on experiments on CamemBERT (Martin et al., 2019), we show that pretraining such models on highly variable datasets leads to better downstream performance compared to models trained on more uniform data. Moreover, we show that a relatively small amount of web crawled data (4GB) leads to downstream performances as good as a model pretrained on a corpus two orders of magnitude larger (138GB).
+abstract: Les modèles de langue neuronaux contextuels sont désormais omniprésents en traitement automatique des langues. Jusqu’à récemment, la plupart des modèles disponibles ont été entraînés soit sur des données en anglais, soit sur la concaténation de données dans plusieurs langues. L’utilisation pratique de ces modèles — dans toutes les langues sauf l’anglais — était donc limitée. La sortie récente de plusieurs modèles monolingues fondés sur BERT (Devlin et al., 2019), notamment pour le français, a démontré l’intérêt de ces modèles en améliorant l’état de l’art pour toutes les tâches évaluées. Dans cet article, à partir d’expériences menées sur CamemBERT (Martin et al., 2019), nous montrons que l’utilisation de données à haute variabilité est préférable à des données plus uniformes. De façon plus surprenante, nous montrons que l’utilisation d’un ensemble relativement petit de données issues du web (4Go) donne des résultats aussi bons que ceux obtenus à partir d’ensembles de données plus grands de deux ordres de grandeurs (138Go).
 
 # Summary. An optional shortened abstract.
-summary: We explore the impact of the training data size and heterogeneity on French language modeling.
+summary: Nous explorons l'impact de la taille et de l'hétérogénéité des données d'entraînement sur la modélisation de la langue française.
 
 tags:
 featured: false
 links:
 - name: TALN 2020
   url: https://jep-taln2020.loria.fr/
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-02784755
+- name: Website
+  url: https://camembert-model.fr/
+url_pdf: https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TALN-RECITAL-2020_paper_151.pdf
 #url_code: 'https://github.com/pjox/goclassy'
-#url_dataset: 'https://traces1.inria.fr/oscar/'
+url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'
 #url_project: ''
 #url_slides: '/files/CMLC_7_slides.pdf'

@@ -9,6 +9,10 @@ authors:
 - Éric de la Clergerie
 - Benoît Sagot
 - Djamé Seddah
+author_notes:
+- "Contribución a partes iguales"
+- "Contribución a partes iguales"
+- "Contribución a partes iguales"
 date: "2020-06-08T00:00:00Z"
 doi: ""
 
@@ -35,9 +39,13 @@ featured: false
 links:
 - name: TALN 2020
   url: https://jep-taln2020.loria.fr/
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-02784755
+- name: Website
+  url: https://camembert-model.fr/
+url_pdf: https://jep-taln2020.loria.fr/wp-content/uploads/JEP-TALN-RECITAL-2020_paper_151.pdf
 #url_code: 'https://github.com/pjox/goclassy'
-#url_dataset: 'https://traces1.inria.fr/oscar/'
+url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'
 #url_project: ''
 #url_slides: '/files/CMLC_7_slides.pdf'

@@ -9,6 +9,10 @@ authors:
 - Éric de la Clergerie
 - Djamé Seddah
 - Benoît Sagot
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 date: "2020-07-06T00:00:00Z"
 doi: ""
 
