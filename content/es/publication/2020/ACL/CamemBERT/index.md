@@ -37,6 +37,8 @@ summary: We explore the impact of the training data size on a French version of 
 tags:
 featured: true
 links:
+- name: ACL Anthology
+  url: https://www.aclweb.org/anthology/2020.acl-main.645/
 - name: arXiv
   url: https://arxiv.org/abs/1911.03894/
 - name: Website
@@ -45,7 +47,7 @@ links:
   url: https://acl2020.org/
 - name: HAL
   url: https://hal.inria.fr/hal-02445946
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+url_pdf: https://www.aclweb.org/anthology/2020.acl-main.645.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'

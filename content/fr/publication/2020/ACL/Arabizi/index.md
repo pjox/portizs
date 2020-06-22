@@ -33,9 +33,11 @@ summary: We introduce the first treebank for a romanized user-generated content 
 tags:
 featured: false
 links:
+- name: ACL Anthology
+  url: https://www.aclweb.org/anthology/2020.acl-main.107/
 - name: ACL 2020
   url: https://acl2020.org/
-#url_pdf: https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/9021/file/Suarez_Sagot_Romary_Asynchronous_Pipeline_for_Processing_Huge_Corpora_2019.pdf
+url_pdf: https://www.aclweb.org/anthology/2020.acl-main.107.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://traces1.inria.fr/oscar/'
 #url_poster: '#'
