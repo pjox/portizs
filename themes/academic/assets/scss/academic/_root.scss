@@ -29,6 +29,9 @@ body {
     margin-top: 50px; /* Offset body content by navbar height. */
   }
 }
+body.no-navbar {
+  margin-top: 0 !important;
+}
 
 .max-width-640 {
   max-width: 640px;
@@ -53,6 +56,11 @@ p {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+li > p {
+  // Override the default paragraph margin for paragraphs within lists.
+  margin-bottom: 0;
 }
 
 ul.task-list {
@@ -121,11 +129,26 @@ a:focus {
   color: $sta-link-hover;
 }
 
+.dark a,
+.dark h3.article-title a:hover {
+  color: $sta-dark-link;
+}
+
+.dark a:hover,
+.dark a:focus {
+  color: $sta-dark-link-hover;
+}
+
 img,
 video {
   height: auto;
   max-width: 100%;
   display: block;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 20px
 }
 
 video {
@@ -424,7 +447,7 @@ a.badge:hover {
 .btn {
   padding: .5rem;
   font-size: .8rem;
-  line-height: .5;
+  line-height: .9;  // Anything less and multiline button text may overlap.
   border-radius: .3rem;
 }
 

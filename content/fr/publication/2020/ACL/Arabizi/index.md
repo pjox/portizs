@@ -10,7 +10,7 @@ authors:
 - Benoît Sagot
 - Abhishek Srivastava
 date: "2020-07-05T00:00:00Z"
-doi: ""
+doi: "10.18653/v1/2020.acl-main.107"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"

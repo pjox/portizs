@@ -2,11 +2,6 @@
  *  Page content
  **************************************************/
 
-article {
-  animation: intro 0.3s both;
-  animation-delay: 0.15s;
-}
-
 .article-container {
   max-width: 760px;
   padding: 0 20px 0 20px;
@@ -135,6 +130,29 @@ article .article-metadata {
 
 .middot-divider::after {
   content: '\00B7';
+}
+
+@mixin word-wrap() {
+  // Break very long words such as pasted URL strings.
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+  // Add a hyphen where the word breaks, if supported (No Blink).
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.article-style {
+  // Break unresponsive block content, such as unresponsive embeds, to prevent horizontal scrolling.
+  overflow-x: hidden;
+
+  // Word wrap text content.
+  @include word-wrap();
 }
 
 .article-style img,
