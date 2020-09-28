@@ -53,6 +53,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?user=5sNdyvkAAAAJ&hl=en
+- icon: hal
+  icon_pack: ai
+  link: https://cv.archives-ouvertes.fr/pedro-ortiz-suarez
 - icon: semantic-scholar
   icon_pack: ai
   link: https://www.semanticscholar.org/author/Pedro-Javier-Ortiz-Suárez/147846651

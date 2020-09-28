@@ -7138,10 +7138,10 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /*************************************************
- *  Academic: The Website Builder for Hugo
+ *  Wowchemy: The Website Builder for Hugo
  *  Designed by @GeorgeCushen
- *  https://sourcethemes.com/academic/
- *  License: https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md
+ *  https://wowchemy.com/
+ *  License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md
  **************************************************/
 /*************************************************
  *  Academic's Core
@@ -7261,8 +7261,8 @@ a:focus {
 .dark h3.article-title a:hover {
   color: #2962ff; }
 
-.dark a:hover,
-.dark a:focus {
+.dark a:not(.btn):hover,
+.dark a:not(.btn):focus {
   color: #2962ff; }
 
 img,
@@ -7444,27 +7444,6 @@ a[data-fancybox] {
 
 .dark .post-nav-item a {
   color: #ddd; }
-
-/*************************************************
- *  Footer
- **************************************************/
-footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
-  width: 100%; }
-
-footer p {
-  font-size: 0.75rem;
-  text-align: center; }
-
-site-footer,
-footer a.back-to-top i {
-  color: rgba(0, 0, 0, 0.54); }
-
-.dark site-footer,
-.dark footer a.back-to-top i,
-.dark .docs .body-footer {
-  color: rgba(255, 255, 255, 0.54); }
 
 /**************************************************
  *  Tags/Labels
@@ -7675,6 +7654,27 @@ div.alert a {
   bottom: 0.1em;
   line-height: 1;
   position: relative; }
+
+footer {
+  margin: 4rem 0 0;
+  padding: 2rem 0;
+  width: 100%; }
+
+footer p {
+  font-size: 0.75rem;
+  text-align: center; }
+
+footer .powered-by {
+  font-size: 0.67rem; }
+
+.site-footer,
+footer a.back-to-top i {
+  color: rgba(0, 0, 0, 0.54); }
+
+.dark .site-footer,
+.dark footer a.back-to-top i,
+.dark .docs .body-footer {
+  color: rgba(255, 255, 255, 0.54); }
 
 .footer-license-icons {
   display: flex;
