@@ -44,7 +44,7 @@ url_pdf: https://www.aclweb.org/anthology/2020.acl-main.107.pdf
 #url_project: ''
 #url_slides: '/files/CMLC_7_slides.pdf'
 #url_source: '#'
-#url_video: '#'
+url_video: 'http://slideslive.com/38929457'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

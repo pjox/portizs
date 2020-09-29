@@ -44,7 +44,7 @@ url_dataset: 'https://oscar-corpus.com'
 #url_project: ''
 #url_slides: '/files/CMLC_7_slides.pdf'
 #url_source: '#'
-#url_video: '#'
+url_video: 'http://slideslive.com/38929074'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
