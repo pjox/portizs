@@ -2,10 +2,17 @@
 title: Asynchronous Pipeline for Processing Huge Corpora on Medium to Low Resource Infrastructures
 event: 7th Workshop on the Challenges in the Management of Large Corpora
 event_url: http://corpora.ids-mannheim.de/cmlc-2019.html
+
 location: Cardiff, UK
+# address:
+#   street: 450 Serra Mall
+#   city: Stanford
+#   region: CA
+#   postcode: '94305'
+#   country: United States
+
 summary: We propose a new pipeline to filter, clean and classify Common Crawl by language, we publish the final corpus under the name OSCAR.
 abstract: Common Crawl is a considerably large, heterogeneous multilingual corpus comprised of crawled documents from the internet, surpassing 20TB of data and distributed as a set of more than 50 thousand plain text files where each contains many documents written in a wide variety of languages. Even though each document has a metadata block associated to it, this data lacks any information about the language in which each document is written, making it extremely difficult to use Common Crawl for monolingual applications. We propose a general, highly parallel, multithreaded pipeline to clean and classify Common Crawl by language; we specifically design it so that it runs efficiently on medium to low resource infrastructures where I/O speeds are the main constraint. We develop the pipeline so that it can be easily reapplied to any kind of  heterogeneous corpus and so that it can be parameterised to a wide range of infrastructures. We also distribute a 6.3TB version of Common Crawl, filtered, classified by language, shuffled at line level in order to avoid copyright issues, and ready to be used for NLP applications.
-
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

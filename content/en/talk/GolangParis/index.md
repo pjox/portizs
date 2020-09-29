@@ -1,0 +1,63 @@
+---
+title: Reducing computation time by months by rewriting Bash scripts in Go
+event: "GIG #3 bring the cool back in the cloud"
+event_url: https://www.meetup.com/Golang-Paris/events/259677022/
+
+location: La Base
+address:
+  street: 31 Rue Bichat
+  city: Paris
+  region: Île-de-France
+  postcode: '75010'
+  country: France
+
+#summary: We propose a new pipeline to filter, clean and classify Common Crawl by language, we publish the final corpus under the name OSCAR.
+#abstract: Common Crawl is a considerably large, heterogeneous multilingual corpus comprised of crawled documents from the internet, surpassing 20TB of data and distributed as a set of more than 50 thousand plain text files where each contains many documents written in a wide variety of languages. Even though each document has a metadata block associated to it, this data lacks any information about the language in which each document is written, making it extremely difficult to use Common Crawl for monolingual applications. We propose a general, highly parallel, multithreaded pipeline to clean and classify Common Crawl by language; we specifically design it so that it runs efficiently on medium to low resource infrastructures where I/O speeds are the main constraint. We develop the pipeline so that it can be easily reapplied to any kind of  heterogeneous corpus and so that it can be parameterised to a wide range of infrastructures. We also distribute a 6.3TB version of Common Crawl, filtered, classified by language, shuffled at line level in order to avoid copyright issues, and ready to be used for NLP applications.
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: "2019-03-24T19:00:00Z"
+date_end: "2019-03-24T22:00:00Z"
+all_day: false
+
+# Schedule page publish date (NOT talk date).
+publishDate: "2017-01-01T00:00:00Z"
+
+authors: [admin]
+tags: []
+
+# Is this a featured talk? (true/false)
+featured: true
+
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/pjox13
+url_code: "https://github.com/pjox/goclassy"
+url_pdf: ""
+url_slides: "https://docs.google.com/presentation/d/1fu-4lVgpxZl4-c4YWGMgUbtW8jxUBKuvZeaEjvUxTgo/edit?usp=sharing"
+url_video: ""
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+#projects:
+#- internal-project
+
+# Enable math on this page?
+math: true
+---
