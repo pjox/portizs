@@ -2,4 +2,4 @@ module github.com/pjox/pjortiz
 
 go 1.15
 
-require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20200928004651-12b7ad9f019e // indirect
+require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20201008203720-98d093a07301 // indirect

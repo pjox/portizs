@@ -1,3 +1,5 @@
 /public
 .firebase/
 .vscode/
+starter-academic/
+.DS_Store

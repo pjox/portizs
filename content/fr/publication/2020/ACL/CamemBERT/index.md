@@ -10,9 +10,9 @@ authors:
 - Djamé Seddah
 - Benoît Sagot
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-- "Equal contribution"
+- "Contribué à parts égales"
+- "Contribué à parts égales"
+- "Contribué à parts égales"
 date: "2020-07-06T00:00:00Z"
 doi: "10.18653/v1/2020.acl-main.645"
 
