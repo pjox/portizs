@@ -35,6 +35,8 @@ links:
   url: https://impresso.github.io/CLEF-HIPE-2020/
 - name: CLEF-2020
   url: https://clef2020.clef-initiative.eu
+- name: HAL
+  url: https://hal.archives-ouvertes.fr/hal-02984746
 url_pdf: http://ceur-ws.org/Vol-2696/paper_203.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://traces1.inria.fr/oscar/'
