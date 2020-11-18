@@ -12,7 +12,7 @@ menu:
     weight: 10
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 20
+weight: 1000
 
 gallery_item:
 - album: gallery
@@ -49,11 +49,13 @@ Soient $A, B, C$ trois parties de $E$. Montrer que si $\bigl(A \cup B\subseteq A
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Supposons $A \cup B \subseteq A \cup C$ et $A \cap B \subseteq A \cap C$.
 Puisque $A \cup B \subseteq A \cup C$ et $B \subseteq A \cup B$, on a $B \subseteq A \cup C$ et par conséquent $B \subseteq B \cap (A \cup
 C)$. Appliquons la distributivité de $\cap$ sur $\cup$ : $B \subseteq B \cap (A \cup C) = (B \cap A)\cup (B \cap C)$ puis la deuxième inclusion de l'énoncé $(B \cap A) \subseteq (A \cap C)$, on obtient $B \subseteq (A \cap C)\cup (B \cap C)$ et on utilise la distributivité de $\cup$ sur $\cap$ pour regrouper les termes $(A \cap C)\cup (B \cap C)=(A \cup B)\cap C$ donc finalement $B = (A \cup B)\cap C \subseteq C$.
 
 Montrons que $B=C \Leftrightarrow \bigl(A \cup B = A \cup C$ et $A \cap B = A \cap C \bigr)$. L'implication $\Rightarrow$ est immédiate. Réciproquement, en appliquant deux fois le résultat de la question précédente (l'un avec $A$, $B$ et $C$ dans l'ordre de l'énoncé, l'autre en échangeant les rôles de $B$ et $C$) on obtient $B \subseteq C$ et $C\subseteq B$, donc $B=C$.
+{{< /spoiler >}}
 
 ## Exercice 2.7
 
@@ -61,6 +63,7 @@ Soit $E$ un sous-ensemble d'un ensemble $F$ et $x$ un élément de $F$ qui n'est
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 *   $\mathcal{P}(E\cup\\{x\\})\subseteq \mathcal{P}(E)\cup\\{\\{x\\}\cup A \mid A \in \mathcal{P}(E)\\}$
   
     Soit $B$ une partie de $E \cup \\{x\\}$, on distingue deux cas. Si $x \in B$, alors $B - \\{x\\}$ est une partie de $E$, et on a donc $B \in \\{\\{x\\} \cup A \mid A \in \mathcal{P}(E)\\}$ ce qui permet d'obtenir $B \in \mathcal{P}(E) \cup \\{\\{x\\} \cup A \mid A \in \mathcal{P}(E)\\}$. Sinon, si $x \notin B$, alors $B$ est une partie de $E$ et on obtient directement $B \in \mathcal{P}(E) \cup \\{\\{x\\} \cup A \mid A \in \mathcal{P}(E)\\}$.
@@ -70,6 +73,7 @@ Soit $E$ un sous-ensemble d'un ensemble $F$ et $x$ un élément de $F$ qui n'est
     Soit $B \in \mathcal{P}(E) \cup \\{\\{x\\} \cup A \mid A \in \mathcal{P}(E)\\}$, on a $B \in \mathcal{P}(E)$ ou $B \in \\{\\{x\\} \cup A \mid A \in \mathcal{P}(E)\\}$ et donc il vient $B \subseteq E$ ou $B = \\{x\\} \cup A$ pour une certaine partie $A$ de $E$, c’est à dire pour un ensemble $A \subseteq E$. Dans les deux cas on a bien $B \subseteq E \cup \\{x\\}$ ce qui permet finalement d’obtenir $B \in \mathcal{P}(E \cup \\{x\\})$.
 
 **Remarque :** Cette démonstration est l'étape de récurrence qui permet de montrer que pour tout ensemble fini $E$ à $n$ éléments, l'ensemble $\mathcal{P}(E)$ des parties de $E$ a pour cardinal $2n$. En effet, pour $n = 0$, l’ensemble $E$ est vide, donc $\mathcal{P}(E) = \\{\emptyset\\}$ a un seul élément. Considérons un ensemble ayant $n + 1$ éléments, il est de la forme $E \cup \\{x\\}$ pour un élément $x$ n'appartenant pas à $E$. L’hypothèse de récurrence donne $\text{card}(\mathcal{P}(E)) = 2^n$ et on déduit de la démonstration ci-dessus que le cardinal de $\mathcal{P}(E \cup \\{x\\})$ est égal à $2 \times \text{card}(\mathcal{P}(E))$, ce qui permet de conclure.
+{{< /spoiler >}}
 
 ## Exercice 7
 
@@ -81,6 +85,7 @@ Démontrer que $R$ est une relation d'équivalence.
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Noter que $(a,b) R (a,b)$ pour tout $(a,b)\in {\mathbb{N}}\times ( \mathbb{N} \setminus \{0\})$, puisque $ab=ba$; donc la relation $R$ est reflexive.
 
 Supposons que $(a,b) R (c,d)$. Alors $ad=bc$ et en particulier, $cb=da$. Donc, par définition, $(c,d)R(a,b)$ et la relation $R$ est symétrique.
@@ -90,6 +95,7 @@ Supposons que $(a,b) R (c,d)$ et que $(c,d) R (e,f)$. Alors $ad=bc$ et $cf=de$. 
 Comme $R$ est réflexive, transitive et symétrique, c'est une relation d'équivalence.
 
 Notons que si la paire ordonnée $(a,b)$ est écrite sous forme de fraction $\frac{a}{b}$, alors la relation $R$ est la définition d'égalité de deux fractions, c'est-à-dire $\frac{a}{b}=\frac{c}{d}$ si et seulement si $ad=bc$.
+{{< /spoiler >}}
 
 ## Exercice 11.2
 
@@ -100,9 +106,13 @@ Soit $E$ un ensemble et $\equiv$ une relation d'\'equivalence sur $E$.
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
+
 1.   $f$ n’est pas nécessairement injective : si $x,x' \in E$ et $x \equiv x'$, alors $f(x) = f(x')$ même si $x \neq x'$. $f$ est surjective : soit $y \in E_{/\equiv}$, alors il existe $x$ tel que $y = \[x\]\_{\equiv}$ et $y = f(x)$. $f$ n’est donc pas nécessairement bijective.
 
 2.   Supposons $g$ injective. Soient $x,x' \in  E$ tels que $h(x) = h(x')$. Alors par définition, $g\(\[x\]\_{\equiv}\) = g\(\[x'\]\_{\equiv}\)$. Or, $g$ est injective, donc $\[x\]\_{\equiv} = \[x'\]\_{\equiv}$ et $x \equiv x'$. Réciproquement,  soient $y, y' \in E\_{/\equiv}$ tels que $g(y) = g(y')$. Pour tout $x \in y$, $h(x) = g(y)$ et pour tout $x' \in  y'$, $h(x') = g(y')$. Donc, $h(x) = h(x')$ pour tous $x \in y, x' \in y'$. Par hypothèse, cela signifie que $x \equiv x'$, pour tous $x \in y, x'  \in y'$. Donc $\[x\]\_{\equiv} = y = \[x'\]\_{\equiv} =y'$ et $g$ est injective.
+
+{{< /spoiler >}}
 
 ## Exercice 12
 
@@ -110,6 +120,7 @@ Si $n<m$, il n'existe pas d'injection d'un ensemble à $m$ éléments dans un en
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Soit $A=\\{1,2,\ldots,m\\}$ l'ensemble des chemises à répartir et soit $A\_i$ l'ensemble des chemises contenues dans le tiroir $i$, pour $i\in \[n\]$. $A\_1, \ldots, A\_n$ forment une partition de $A$, donc
 
 $$|A|= \sum_{i=1}^n|A_i|\,.$$
@@ -119,6 +130,7 @@ Si l'on avait: $\forall i\in \[n\]$, $|A_i| < \frac{m}{n}$, on pourrait en dédu
 $$|A| = \sum_{i=1}^n |A_i| < n\times \frac{m}{n}=m,$$
 
 une contradiction; donc on a $|A\_i| \geq \frac{m}{n}$ pour un $i$ au moins.
+{{< /spoiler >}}
 
 ## Exercice 14
 
@@ -126,8 +138,10 @@ On dit qu'une application $f:E \to E$ est une involution si et seulement si pour
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Soit $f:E \to E$ une involution. Montrons que $f$ est bijective. Si $x_1,x_2 \in E$ sont tels que $f(x\_1)=f(x\_2)$, alors
 $f(f(x_1))=f(f(x_2))$, et puisque $f$ est involutive, on a alors $x\_1=x\_2$, et donc $f$ est injective. Soit $x \in E$, puisque $f$ est involutive, on a $x = f(f(x))$, et donc $x$ admet bien un antécédent $f(x) \in E$ par $f$ qui est donc une application surjective.
+{{< /spoiler >}}
 
 ## Exercice 18
 
@@ -135,6 +149,7 @@ On dit qu'un ensemble $E$ est _dénombrable_ s'il existe une bijection entre ce
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Le premier dessin représente le chemin correspondant à la bijection $f(x,y) = y + (0 + 1 + 2 + \cdots + (x + y))$, les trois autres représentent des autres chemins possibles.
 
 {{< gallery >}}
@@ -158,6 +173,7 @@ $\mathbb{N}_3 = \\{7,15,23,31,\ldots\\}$, etc.
 {{< figure library="true" src="/mathdisc/fonctions/diag5.svg" lightbox="true" >}}
 
 Pour prouver plus formellement que $f$ est une bijection, considérons la suite définie par $u_p = 1 + \cdots + p$ pour $p \le 1$, et $u_0 = 0$. Par définition cette suite est strictement croissante. Ainsi, pour tout entier $n$, il existe un unique entier $p$ tel que $u_p \le n < u_p+1$. Le couple $(x, y)$ antécédent de $n$ par $f$ est alors défini par : $y = n − u_p$ et $x = p − y$.
+{{< /spoiler >}}
 
 ## Exercice 20
 
@@ -165,7 +181,9 @@ Montrer qu'il n'existe pas de bijection entre un ensemble et l'ensemble de ses p
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 On montre simplement qu'il n'existe pas de surjection $f$ entre un ensemble $E$ et l'ensemble de ses parties. En effet, supposons qu'une telle application existe. Pour toute partie $X$ de $E$, il existe un élément $x \in E$ tel que $X=f(x)$. Considérons à présent la partie de $E$  définie par $A = \\{ x \in E \mid x \notin f(x) \\}$. Par hypothèse, $A$ est l'image d'un élément $a \in E$, et on a donc $A = f(a)$. Deux cas sont possibles. Si $a \in A$, alors, par définition de $A$, $a \notin f(a)$. Or $f(a) = A$ ce qui est contradictoire. Sinon $a \notin A$, et alors, par définition de $A$, $a \in f(a)$. Or $f(a) = A$ ce qui est contradictoire.
+{{< /spoiler >}}
 
 ## Exercice 21.1
 
@@ -173,7 +191,9 @@ Montrer que $(\mathbb{N}, + ,0)$ et $(\wp(E), \cup ,\emptyset)$ sont des monoïd
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 cf. définition.
+{{< /spoiler >}}
 
 ## Exercice 21.2
 
@@ -181,6 +201,8 @@ Soit $A$ un alphabet. L'ensemble des mots de $A^\*$ de longueur paire est-il un 
 
 ### Solution
 
+{{< spoiler text="Cliquer ici pour voir la solution" >}}
 Longueur paire: stable pour la concaténation puisque la somme de deux nombres pairs est paire et $\varepsilon$ l'élément neutre de la concaténation en fait partie, donc sous-monoïde de $A^\*$.
 
 Longueur impaire: instable la concaténation puisque la somme de deux nombres impairs est paire et $\varepsilon$ l'élément neutre de la concaténation n'en fait pas partie, donc pas un sous-monoïde de $A^\*$.
+{{< /spoiler >}}

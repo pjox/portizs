@@ -71,9 +71,9 @@ social:
 - icon: dblp
   icon_pack: ai
   link: https://dblp.uni-trier.de/pers/hd/s/Su=aacute=rez:Pedro_Javier_Ortiz
-# - icon: hal
-#   icon_pack: custom
-#   link: https://cv.archives-ouvertes.fr/pedro-ortiz-suarez
+- icon: mendeley
+  icon_pack: ai
+  link: https://www.mendeley.com/profiles/pedro-javier-ortiz-surez/
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
