@@ -60,8 +60,12 @@
   weight = 10
   identifier = "notes"
 [[fr.menu.mathdiscretes]]
-  name = "Exercices TDs"
+  name = "Videos TDs"
   weight = 20
+  identifier = "videos"
+[[fr.menu.mathdiscretes]]
+  name = "Exercices TDs"
+  weight = 30
   identifier = "exos"
 # [[fr.menu.mathdiscretes]]
 #   name = "Contrôle continu"

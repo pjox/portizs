@@ -2,14 +2,10 @@
 # Display name
 title: Pedro Javier Ortiz Suárez
 
-# Username (this should match the folder name)
-authors:
-- admin
-
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
+# Role/position/tagline
 role: Doctorant
 
 # Organizations/Affiliations
@@ -18,15 +14,18 @@ organizations:
   url: "https://www.sorbonne-universite.fr/"
 - name: Inria
   url: "https://www.inria.fr/"
+
 # Short bio (displayed in user profile at end of posts)
 bio: Je suis doctorant en informatique à Sorbonne Université et à l'équipe de recherche ALMAnaCH à Inria
 
+# Interests to show in About widget
 interests:
 - Machine Learning
 - Deep Learning
 - Text Mining
 - NLP
 
+# Education to show in About widget
 education:
   courses:
   - course: Doctorat en Informatique
@@ -42,9 +41,9 @@ education:
     year: 2016
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
@@ -93,9 +92,12 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Remove this if you are not using the People widget.
 #user_groups:
 #- Researchers
 #- Visitors

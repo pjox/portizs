@@ -7150,8 +7150,11 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16.17px;
   color: rgba(0, 0, 0, 0.8);
-  line-height: 1.65; }
-
+  line-height: 1.65;
+  scroll-padding-top: 70px; }
+  @media (max-width: 991.98px) {
+    html {
+      scroll-padding-top: 50px; } }
 @media screen and (min-width: 58em) {
   html {
     font-size: 21px; } }
@@ -7162,19 +7165,16 @@ body {
   line-height: inherit;
   color: inherit;
   background-color: white;
-  margin-top: 70px;
-  /* Offset body content by navbar height. */
   padding-top: 0;
-  counter-reset: captions; }
-
-@media (max-width: 991.98px) {
-  /* Match max-width of .nav-bar query. */
-  body {
-    margin-top: 50px;
-    /* Offset body content by navbar height. */ } }
-
+  counter-reset: captions;
+  overflow-x: hidden;
+  margin-top: 70px; }
+  @media (max-width: 991.98px) {
+    body {
+      margin-top: 50px; } }
 body.no-navbar {
-  margin-top: 0 !important; }
+  margin-top: 0 !important;
+  scroll-padding-top: 0 !important; }
 
 .page-wrapper {
   min-height: calc(100vh - 70px);
@@ -8492,7 +8492,7 @@ ul.share li:hover i {
 .home-section.dark h2,
 .home-section.dark h3,
 .home-section.dark a:not(.btn) {
-  color: #f8f8f2; }
+  color: #fff; }
 
 /* Underline links in dark sections to separate them from text */
 .home-section.dark a:not(.btn):not(.hero-cta-alt) {
@@ -8795,7 +8795,7 @@ ul.ul-edu li .description p.institution {
 .dark .experience .card-text p {
   color: #f8f8f2 !important; }
 
-.card .card-text ul {
+.card .card-text p + ul {
   margin-top: -1rem;
   margin-bottom: 0rem; }
 
@@ -8840,13 +8840,13 @@ ul.ul-edu li .description p.institution {
 
 .project-card {
   position: relative;
-  width: calc(33.3% - 2*20px);
-  /* Fluid 3 columns (inc. 20px gutter) */ }
+  width: calc(33.3% - 13.3px);
+  /* Fluid 3 columns ($gutter * ($number_of_cols - 1) / $number_of_cols; following https://stackoverflow.com/a/51290967) */ }
 
 @media screen and (max-width: 1199px) {
   .project-card {
-    width: calc(50% - 20px);
-    /* Fluid 2 columns (inc. 20px gutter) */ } }
+    width: calc(50% - 10px);
+    /* Fluid 2 columns ($gutter * ($number_of_cols - 1) / $number_of_cols; following https://stackoverflow.com/a/51290967) */ } }
 
 @media screen and (max-width: 768px) {
   .project-card {
@@ -9183,7 +9183,7 @@ body.dark,
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: #98a6ad; }
+  color: #fff; }
 
 .dark pre,
 .dark code {
