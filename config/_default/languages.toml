@@ -103,3 +103,36 @@
   name = "CV"
   url = "../files/cv.pdf"
   weight = 7
+
+
+[de]
+  languageCode = "de"
+  baseurl = "https://pjortiz.de/"
+  contentDir = "content/de"
+[de.marketing]
+  google_analytics = "G-3PS66SZZMH"
+  google_tag_manager = ""
+[[de.menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+[[de.menu.main]]
+   name = "Veröffentlichungen"
+   url = "#featured"
+   weight = 2
+[[de.menu.main]]
+   name = "Vorträge"
+   url = "#talks"
+   weight = 3
+[[de.menu.main]]
+   name = "Projekte"
+   url = "#projects"
+   weight = 4
+[[de.menu.main]]
+  name = "Kontakt"
+  url = "#contact"
+  weight = 6
+[[de.menu.main]]
+  name = "CV"
+  url = "../files/cv.pdf"
+  weight = 7

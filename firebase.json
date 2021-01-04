@@ -26,6 +26,15 @@
         "**/.*",
         "**/node_modules/**"
       ]
+    },
+    {
+      "target": "pjortiz-de",
+      "public": "public/de",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
     }
   ]
 }
