@@ -45,33 +45,6 @@
   url = "../files/cv_fr.pdf"
   weight = 9
 
-# Additional Menus
-[[fr.menu.mathdiscretes2019]]
-  name = "Exercices"
-  weight = 10
-  identifier = "exercices"
-[[fr.menu.mathdiscretes2019]]
-  name = "Contrôle continu"
-  weight = 20
-  identifier = "control"
-
-[[fr.menu.mathdiscretes]]
-  name = "Notes TDs"
-  weight = 10
-  identifier = "notes"
-[[fr.menu.mathdiscretes]]
-  name = "Videos TDs"
-  weight = 20
-  identifier = "videos"
-[[fr.menu.mathdiscretes]]
-  name = "Exercices TDs"
-  weight = 30
-  identifier = "exos"
-# [[fr.menu.mathdiscretes]]
-#   name = "Contrôle continu"
-#   weight = 30
-#   identifier = "control"
-
 [es]
   languageCode = "es"
   baseurl = "https://pjortiz.co/"

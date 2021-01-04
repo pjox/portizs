@@ -2,18 +2,10 @@
 title: "TD5 : Langages et Automates"
 linktitle: Notes TD5
 toc: true
-type: docs
+type: book
 date: "2020-10-14T00:00:00+01:00"
 lastmod: "2020-11-16T00:00:00+01:00"
 draft: false
-menu:
-  mathdiscretes:
-    parent: notes
-    weight: 50
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 50
-
 ---
 
 

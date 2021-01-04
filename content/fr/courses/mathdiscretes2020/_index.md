@@ -1,4 +1,24 @@
 ---
+title: "LU2IN005 : Mathématiques discrètes (2020)"
+
+# Title for the menu link if you wish to use a shorter link title, otherwise remove this option.
+linktitle: "LU2IN005 : Mathématiques discrètes (2020)"
+
+# Page summary for search engines.
+summary: L'objectif de ce cours est de présenter les outils mathématiques qui sont à la base des techniques utilisées dans la plupart des domaines de l'informatique.
+
+# Date page published
+date: 2020-10-14
+lastmod: "2020-10-14T00:00:00+01:00"
+
+# Academic page type (do not modify).
+type: book
+
+# Position of this page in the menu. Remove this option to sort alphabetically.
+weight: 1
+---
+
+<!-- ---
 # Course title, summary, and position.
 linktitle: "LU2IN005 : Mathématiques discrètes (2020)"
 summary: L'objectif de ce cours est de présenter les outils mathématiques qui sont à la base des techniques utilisées dans la plupart des domaines de l'informatique.
@@ -19,7 +39,7 @@ menu:
   mathdiscretes:
     name: Objectifs & bibliographie
     weight: 1
----
+--- -->
 
 ## Objectifs
 

@@ -2,17 +2,9 @@
 title: Quiz 1
 linktitle: Quiz 1
 toc: true
-type: docs
+type: book
 date: "2019-10-20T00:00:00+01:00"
 draft: false
-menu:
-  mathdiscretes2019:
-    parent: control
-    weight: 3
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 10
-
 ---
 
 ## Exercice 1

@@ -1,24 +1,21 @@
 ---
-# Course title, summary, and position.
+title: "LU2IN005 : Mathématiques discrètes (2019)"
+
+# Title for the menu link if you wish to use a shorter link title, otherwise remove this option.
 linktitle: "LU2IN005 : Mathématiques discrètes (2019)"
+
+# Page summary for search engines.
 summary: L'objectif de ce cours est de présenter les outils mathématiques qui sont à la base des techniques utilisées dans la plupart des domaines de l'informatique.
+
+# Date page published
+date: 2020-10-14
+lastmod: "2020-10-14T00:00:00+01:00"
+
+# Academic page type (do not modify).
+type: book
+
+# Position of this page in the menu. Remove this option to sort alphabetically.
 weight: 1
-
-# Page metadata.
-title: Objectifs & bibliographie
-date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: true  # Show table of contents? true/false
-type: docs  # Do not modify.
-
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  mathdiscretes2019:
-    name: Objectifs & bibliographie
-    weight: 1
 ---
 
 ## Objectifs

@@ -1,6 +1,6 @@
 ---
 title: Cours
-layout: docs
+layout: page
 
 # Optional header image (relative to `static/img/` folder).
 header:

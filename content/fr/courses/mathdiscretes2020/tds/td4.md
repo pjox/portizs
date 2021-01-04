@@ -2,18 +2,10 @@
 title: "TD4 : Induction structurelle"
 linktitle: Exercices TD4
 toc: true
-type: docs
+type: book
 date: "2020-10-14T00:00:00+01:00"
 lastmod: "2020-11-18T00:00:00+01:00"
 draft: false
-menu:
-  mathdiscretes:
-    parent: exos
-    weight: 40
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4000
-
 ---
 
 ## Exercice 5
