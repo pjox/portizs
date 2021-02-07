@@ -32,15 +32,15 @@ Soient $A, B, C$ trois parties de $E$.
 
 1.  Montrer que $A \cap \overline{A \cap B} = A \cap \overline{B}$.
    
-    **Indication :** Utilisez les lois de Morgan pour réécrire $A \cap \overline{A \cap B}$, après utilisez la distributivité de $\cap$. Utilisez aussi le fait que $A \cap \overline{A} = \emptyset$.
+    **Solution :** En développant $\overline{A \cap B}$ selon les lois de de Morgan, on a $A \cap \overline{A \cap B}=A \cap (\overline A\cup \overline B)$. On utilise ensuite la distributivité de $\cap$ sur $\cup$ $A \cap (\overline A\cup \overline B)=(A \cap \overline A)\cup (A \cap \overline B)$ et $A \cap \overline A=\emptyset$ et on obtient finalement $A \cap \overline{A \cap B}= A \cap \overline B$.
 
 2.  Montrer que si $A \cap B = A \cap C$ alors $A \cap \overline{B} = A \cap \overline{C}$
    
-    **Indication :** Rappelons que si $A \cap B = A \cap C$ alors $\overline{A \cap B} = \overline{A \cap C}$, après utilisez 1.
+    **Solution :** Si $A\cap B=A\cap C$ alors $\overline{A \cap B}=\overline{A \cap C}$ donc $A\cap \overline{A\cap B} = A\cap \overline{A\cap C}$ et $A \cap \overline B=A \cap \overline C$, d'après la question~1.
 
 3.  En déduire que $$A \cap \overline{B} = A \cap \overline{C} \text{ si et seulement si } A \cap B = A \cap C$$
 
-    **Indication :** Notez que $\overline{\overline{X}} = X$ et utilisez 2.
+    **Solution :** On a déjà montré une implication dans la question 2. Montrons l'implication en sens inverse à présent: supposons que $A \cap \overline B=A \cap \overline C$ alors $A \cap \overline{\overline B}=A \cap \overline{\overline C}$, d'après la question~2.  Puisque $\overline{\overline X}=X$ pour toute partie $X$ de $E$, on a donc $A \cap B = A \cap C$ ce qui nous assure donc de l'autre implication et de l'équivalence entre ces propositions.
 
 ## Exercice 10
 

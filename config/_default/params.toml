@@ -1,17 +1,17 @@
 # SITE SETUP
-# Guide: https://sourcethemes.com/academic/docs/get-started/
-# Documentation: https://sourcethemes.com/academic/docs/
+# Guide: https://wowchemy.com/docs/get-started/
+# Documentation: https://wowchemy.com/docs/
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[search]`).
+# Each config section after this section is defined by a name in square brackets (e.g. `[search]`).
 
 ############################
 ## Theme
 ############################
 
 # Choose a theme.
-#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
-#   Browse built-in themes in `themes/academic/data/themes/`
+#   Guide to color themes: https://wowchemy.com/docs/customization/#color-themes
+#   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/themes/
 #   Browse user installed themes in `data/themes/`
 theme = "minimal"
 
@@ -19,8 +19,8 @@ theme = "minimal"
 day_night = true
 
 # Override the theme's font set (optional).
-#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
-#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
+#   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/data/fonts
 #   Browse user installed font sets in `data/fonts/`
 font = ""
 
@@ -147,7 +147,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+main_menu = {enable = true, align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -199,6 +199,10 @@ plugins_js  = []
   post_view = 2
   publication_view = 2
   talk_view = 2
+
+# Breadcrumb navigation
+[breadcrumb]
+  page_types = {book = true}
 
 ############################
 ## Comments
@@ -269,6 +273,7 @@ plugins_js  = []
 [marketing]
   google_analytics = "G-G1LN192YY4"
   google_tag_manager = ""
+  google_site_verification = ""
 
 ############################
 ## Content Management System
