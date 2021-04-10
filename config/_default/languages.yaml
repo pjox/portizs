@@ -1,0 +1,93 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  baseurl: 'https://pjortiz.eu/'
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+fr:
+  languageCode: fr-fr
+  baseurl: 'https://pjortiz.fr/'
+  contentDir: content/fr
+  params:
+    description: Site description in French...
+  menu:
+    main:
+      - name: Accueil
+        url: '#about'
+        weight: 1
+      - name: Publications
+        url: '#featured'
+        weight: 4
+      - name: Présentations
+        url: '#talks'
+        weight: 5
+      - name: Projets
+        url: '#projects'
+        weight: 6
+      - name: Cours
+        url: 'courses/'
+        weight: 7
+      - name: Contactez moi
+        url: '#contact'
+        weight: 8
+      - name: CV
+        url: '../files/cv_fr.pdf'
+        weight: 9
+es:
+  languageCode: es-co
+  baseurl: 'https://pjortiz.co/'
+  contentDir: content/es
+  params:
+    description: Site description in Spanish...
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 1
+      - name: Publicaciones
+        url: '#featured'
+        weight: 2
+      - name: Presentaciones
+        url: '#talks'
+        weight: 3
+      - name: Proyectos
+        url: '#projects'
+        weight: 4
+      - name: Contacto
+        url: '#contact'
+        weight: 6
+      - name: "CV"
+        url: '../files/cv.pdf'
+        weight: 7
+de:
+  languageCode: de-de
+  baseurl: 'https://pjortiz.de/'
+  contentDir: content/de
+  params:
+    description: Site description in German...
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 1
+      - name: Veröffentlichungen
+        url: '#featured'
+        weight: 2
+      - name: Vorträge
+        url: '#talks'
+        weight: 3
+      - name: Projekte
+        url: '#projects'
+        weight: 4
+      - name: Kontakt
+        url: '#contact'
+        weight: 6
+      - name: CV
+        url: '../files/cv.pdf'
+        weight: 7

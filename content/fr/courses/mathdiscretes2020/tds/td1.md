@@ -7,16 +7,6 @@ date: "2020-10-14T00:00:00+01:00"
 lastmod: "2020-10-14T00:00:00+01:00"
 draft: false
 
-gallery_item:
-- album: gallery
-  image: /mathdisc/fonctions/diag1.svg
-  caption: chemin correspondant à la bijection $f(x,y)$
-- album: gallery
-  image: /mathdisc/fonctions/diag2.svg
-- album: gallery
-  image: /mathdisc/fonctions/diag3.svg
-- album: gallery
-  image: /mathdisc/fonctions/diag4.svg
 ---
 
 ## Lois de Morgan
@@ -145,7 +135,10 @@ On dit qu'un ensemble $E$ est _dénombrable_ s'il existe une bijection entre ce
 {{< spoiler text="Cliquer ici pour voir la solution" >}}
 Le premier dessin représente le chemin correspondant à la bijection $f(x,y) = y + (0 + 1 + 2 + \cdots + (x + y))$, les trois autres représentent des autres chemins possibles.
 
-{{< gallery >}}
+{{< figure library="true" src="/media/mathdisc/fonctions/diag1.svg" caption="chemin correspondant à la bijection $f(x,y)$" >}}
+{{< figure library="true" src="/media/mathdisc/fonctions/diag2.svg" >}}
+{{< figure library="true" src="/media/mathdisc/fonctions/diag3.svg" >}}
+{{< figure library="true" src="/media/mathdisc/fonctions/diag4.svg" >}}
 
 Une autre façon de montrer cette bijection consiste à utiliser la _« moitié »_ de N pour numéroter $\mathbb{N} \times \\{0\\}$, puis la _« moitié »_ de ce qui reste pour numéroter $\mathbb{N} \times \\{1\\}$, puis la _« moitié »_ de ce qui reste pour numéroter $\mathbb{N} \times \\{2\\}$, etc (bijection $g$).
 
@@ -163,7 +156,7 @@ Il reste :
 
 $\mathbb{N}_3 = \\{7,15,23,31,\ldots\\}$, etc.
 
-{{< figure library="true" src="/mathdisc/fonctions/diag5.svg" lightbox="true" >}}
+{{< figure library="true" src="/media/mathdisc/fonctions/diag5.svg" >}}
 
 Pour prouver plus formellement que $f$ est une bijection, considérons la suite définie par $u_p = 1 + \cdots + p$ pour $p \le 1$, et $u_0 = 0$. Par définition cette suite est strictement croissante. Ainsi, pour tout entier $n$, il existe un unique entier $p$ tel que $u_p \le n < u_p+1$. Le couple $(x, y)$ antécédent de $n$ par $f$ est alors défini par : $y = n − u_p$ et $x = p − y$.
 {{< /spoiler >}}
