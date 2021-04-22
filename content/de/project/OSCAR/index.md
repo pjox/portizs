@@ -1,6 +1,6 @@
 ---
 title: OSCAR
-summary: 'OSCAR or **O**pen **S**uper-large **C**rawled [**A**LMAnaCH](https://team.inria.fr/almanach/) co**R**pus is a huge multilingual corpus.'
+summary: 'OSCAR or **O**pen **S**uper-large **C**rawled **A**ggregated co**R**pus is a huge multilingual corpus'
 tags:
 - Corpus Linguistics
 date: "2016-04-27T00:00:00Z"

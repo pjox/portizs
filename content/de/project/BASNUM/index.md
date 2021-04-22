@@ -9,6 +9,6 @@ date: "2016-04-27T00:00:00Z"
 external_link: https://anr.fr/Projet-ANR-18-CE38-0003
 
 image:
-  caption:
+  caption: Smart
   focal_point: 
 ---

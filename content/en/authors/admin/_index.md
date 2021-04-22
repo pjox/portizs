@@ -20,10 +20,11 @@ bio: I'm a PhD student in Computer Science at Sorbonne Université and at the AL
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Deep Learning
-- Text Mining
-- NLP
+- Language modeling
+- Corpus linguistics
+- Named Entity Recognition
+- Machine Translation
+- Computational Linguistics
 
 # Education to show in About widget
 education:
@@ -100,8 +101,8 @@ highlight_name: true
 #- Visitors
 ---
 
-I'm a PhD student in Computer Science at [Sorbonne Université](https://sorbonne-universite.fr/en) and at the [ALMAnaCH research team](https://team.inria.fr/almanach/) at [Inria](https://www.inria.fr/en/).
+I'm a PhD student in Computer Science woking in Natural Language Processing (NLP) for historical documents at [Sorbonne Université](https://sorbonne-universite.fr/en) and at the [ALMAnaCH research team](https://team.inria.fr/almanach/) at [Inria](https://www.inria.fr/en/).
 
-I work primarily in machine learning, deep learning and NLP.
+I am interested in [large corpora](https://oscar-corpus.com) for training [language models](https://camembert-model.fr), specially for under resourced languages and historical languages. I am interested in tasks such as Name Entity Recognition (NER), Dependency Parsing and Part-of-Speech tagging, Machine Translation and Document structuration.
 
-I love coffee, cookies and coding.
+I love coffee, cookies and maths.
