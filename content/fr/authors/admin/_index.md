@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Pedro Javier Ortiz Suárez
+title: Pedro Ortiz Suárez
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,10 +20,11 @@ bio: Je suis doctorant en informatique à Sorbonne Université et à l'équipe d
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Deep Learning
-- Text Mining
-- NLP
+- Modèles de langue
+- linguistique de corpus
+- Reconnaissance d'entités nommées
+- Traduction automatique
+- Linguistique computationnelle
 
 # Education to show in About widget
 education:
@@ -100,8 +101,8 @@ highlight_name: true
 #- Visitors
 ---
 
-Je suis doctorant en informatique à [Sorbonne Université](https://sorbonne-universite.fr/) et à [l'équipe de recherche ALMAnaCH](https://team.inria.fr/almanach/fr) à [Inria](https://www.inria.fr/).
+Je suis doctorant en informatique à [Sorbonne Université](https://sorbonne-universite.fr/) et à [l'équipe de recherche ALMAnaCH](https://team.inria.fr/almanach/fr) à [Inria Paris](https://www.inria.fr/). Je travaille en Traitement Automatique du Langage Naturel (TALN) pour les langues historiques.
 
-Je travaille principalement en machine learning, deep learning et traitement automatique du langage naturel.
+Je m'intéresse aux grands corpus pour l'entraînement de modèles de langue, en particulier pour les langues peu-dotées et les langues historiques. Je suis intéressé par des tâches telles que la reconnaissance d'entités nommées (NER), l'analyse syntaxique, l'étiquetage morpho-syntaxique, la traduction automatique et la structuration de documents.
 
-J’aime le café, les cookies et la programmation.
+J'adore le café, les cookies et les maths.

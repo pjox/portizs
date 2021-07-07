@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Pedro Javier Ortiz Suárez
+title: Pedro Ortiz Suárez
 
 # Is this the primary user of the site?
 superuser: true
