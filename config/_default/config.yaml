@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Pedro Ortiz Suárez # Website name
+title: Pedro Ortiz Suarez # Website name
 baseurl: 'https://pjortiz.eu/' # Website URL
-copyright: 'Pedro Ortiz Suárez &copy; {year}' # Footer text, e.g. '© {year} Me'
+copyright: 'Pedro Ortiz Suarez &copy; {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

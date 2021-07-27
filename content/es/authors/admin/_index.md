@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Pedro Javier Ortiz Suárez
+title: Pedro Ortiz Suarez
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,10 +20,11 @@ bio: Soy estudiante de doctorado en Ciencias de la Computación en Sorbonne Univ
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Deep Learning
-- Text Mining
-- NLP
+- Language modeling
+- Corpus linguistics
+- Named Entity Recognition
+- Machine Translation
+- Computational Linguistics
 
 # Education to show in About widget
 education:
@@ -100,8 +101,8 @@ highlight_name: true
 #- Visitors
 ---
 
-Soy estudiante de doctorado en Ciencias de la Computación en [Sorbonne Université](https://sorbonne-universite.fr/en) y en el [equipo de investigación ALMAnaCH](https://team.inria.fr/almanach/) en el [Inria](https://www.inria.fr/en/).
+Soy estudiante de doctorado en Ciencias de la Computación y trabajo principalmente en Procesamiento de Lenguajes Naturales (PLN) para documentos históricos en [Sorbonne Université](https://sorbonne-universite.fr/en) y en el [equipo de investigación ALMAnaCH](https://team.inria.fr/almanach/) en el [Inria](https://www.inria.fr/en/).
 
-Trabajo principalmente en machine learning, deep learning y procesamiento de lenguaje natural.
+Me intereso principalmente en la creación de [grandes datasets] (https://oscar-corpus.com) para el entrenamiento de [modelos de lenguaje] (https://camembert-model.fr), especialmente para idiomas de escasos recursos e idiomas históricos. Estoy interesado en tareas como Reconocimiento de entidades (NER), Análisis de dependencias y etiquetado de parte del discurso, Traducción automática y Estructuración de documentos.
 
-Me encanta el café, las galletas y la programación. 
+Me encanta el café, las galletas y la programación.
