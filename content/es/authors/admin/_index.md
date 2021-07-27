@@ -103,6 +103,6 @@ highlight_name: true
 
 Soy estudiante de doctorado en Ciencias de la Computación y trabajo principalmente en Procesamiento de Lenguajes Naturales (PLN) para documentos históricos en [Sorbonne Université](https://sorbonne-universite.fr/en) y en el [equipo de investigación ALMAnaCH](https://team.inria.fr/almanach/) en el [Inria](https://www.inria.fr/en/).
 
-Me intereso principalmente en la creación de [grandes datasets] (https://oscar-corpus.com) para el entrenamiento de [modelos de lenguaje] (https://camembert-model.fr), especialmente para idiomas de escasos recursos e idiomas históricos. Estoy interesado en tareas como Reconocimiento de entidades (NER), Análisis de dependencias y etiquetado de parte del discurso, Traducción automática y Estructuración de documentos.
+Me intereso principalmente en la creación de [datasets de gran tamaño](https://oscar-corpus.com) para el entrenamiento de [modelos de lenguaje](https://camembert-model.fr), especialmente para idiomas de escasos recursos e idiomas históricos. Estoy interesado en tareas como Reconocimiento de entidades (NER), Análisis de dependencias y etiquetado de parte del discurso, Traducción automática y Estructuración de documentos.
 
 Me encanta el café, las galletas y la programación.
