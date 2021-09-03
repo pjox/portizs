@@ -2,4 +2,6 @@
 .firebase/
 .vscode/
 starter-academic/
+starter-hugo-online-course/
+old/
 .DS_Store

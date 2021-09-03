@@ -72,6 +72,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/pjox
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/pjox
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/pedro-j-ortiz/

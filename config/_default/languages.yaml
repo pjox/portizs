@@ -30,9 +30,6 @@ fr:
       - name: Projets
         url: '#projects'
         weight: 6
-      - name: Cours
-        url: 'courses/'
-        weight: 7
       - name: Contactez moi
         url: '#contact'
         weight: 8
