@@ -103,8 +103,15 @@ highlight_name: true
 #- Visitors
 ---
 
+Ich bin Doktorand in Informatik und arbeite in Computerlinguistik (CL) für historische Dokumente an der [Sorbonne Université](https://sorbonne-universite.fr/en) und im [ALMAnaCH-Forschungsteam](https://almanach.inria.fr/index-en.html) in [Inria](https://www.inria.fr/en/).
+
+Ich interessiere mich für große Korpora zum Trainieren von Sprachmodellen, insbesondere für unterversorgte Sprachen und historische Sprachen. Ich interessiere mich für Aufgaben wie Name Entity Recognition (NER), Dependency Parsing und Part-of-Speech Tagging, maschinelle Übersetzung und Dokumentenstrukturierung.
+
+Ich liebe Kaffee, Kekse und Mathe. :coffee::cookie:
+
+
 Ich bin ein Doktorand der Informatik an der [Sorbonne Universität](https://sorbonne-universite.fr/en) und an der [Almanach Forscherteam](https://team.inria.fr/almanach/) an [Inria](https://www.inria.fr/en/).
 
 Ich arbeite hauptsächlich in den Bereichen maschinelles Lernen, Deep Learning und NLP.
 
-Ich liebe Kaffee, Kekse und Codierung.
+Ich liebe Kaffee, Kekse und Codierung. :coffee::cookie:
