@@ -20,11 +20,11 @@ bio: Soy estudiante de doctorado en Ciencias de la Computación en Sorbonne Univ
 
 # Interests to show in About widget
 interests:
-- Language modeling
-- Corpus linguistics
-- Named Entity Recognition
-- Machine Translation
-- Computational Linguistics
+- Modelación del lenguaje
+- Lingüística de corpus
+- Reconocimiento de entidades nombradas
+- Lingüística computacional
+- Traducción automática
 
 # Education to show in About widget
 education:

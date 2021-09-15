@@ -23,8 +23,8 @@ interests:
 - Language modeling
 - Corpus linguistics
 - Named Entity Recognition
-- Machine Translation
 - Computational Linguistics
+- Machine Translation
 
 # Education to show in About widget
 education:

@@ -20,10 +20,11 @@ bio: Ich bin ein Doktorand der Informatik an der Sorbonne Universität und an de
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Deep Learning
-- Text Mining
-- NLP
+- Sprachmodellierung
+- Korpuslinguistik
+- Named Entity Recognition
+- Computerlinguistik
+- Maschinelle Übersetzung
 
 # Education to show in About widget
 education:
@@ -105,13 +106,6 @@ highlight_name: true
 
 Ich bin Doktorand in Informatik und arbeite in Computerlinguistik (CL) für historische Dokumente an der [Sorbonne Université](https://sorbonne-universite.fr/en) und im [ALMAnaCH-Forschungsteam](https://almanach.inria.fr/index-en.html) in [Inria](https://www.inria.fr/en/).
 
-Ich interessiere mich für große Korpora zum Trainieren von Sprachmodellen, insbesondere für unterversorgte Sprachen und historische Sprachen. Ich interessiere mich für Aufgaben wie Name Entity Recognition (NER), Dependency Parsing und Part-of-Speech Tagging, maschinelle Übersetzung und Dokumentenstrukturierung.
+Ich interessiere mich für [große Korpora](https://oscar-corpus.com) zum Trainieren von [Sprachmodellen](https://camembert-model.fr), insbesondere für unterversorgte Sprachen und historische Sprachen. Ich interessiere mich für Aufgaben wie Name Entity Recognition (NER), Dependency Parsing und Part-of-Speech Tagging, maschinelle Übersetzung und Dokumentenstrukturierung.
 
 Ich liebe Kaffee, Kekse und Mathe. :coffee::cookie:
-
-
-Ich bin ein Doktorand der Informatik an der [Sorbonne Universität](https://sorbonne-universite.fr/en) und an der [Almanach Forscherteam](https://team.inria.fr/almanach/) an [Inria](https://www.inria.fr/en/).
-
-Ich arbeite hauptsächlich in den Bereichen maschinelles Lernen, Deep Learning und NLP.
-
-Ich liebe Kaffee, Kekse und Codierung. :coffee::cookie:

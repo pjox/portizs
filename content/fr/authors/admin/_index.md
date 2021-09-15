@@ -21,10 +21,10 @@ bio: Je suis doctorant en informatique à Sorbonne Université et à l'équipe d
 # Interests to show in About widget
 interests:
 - Modèles de langue
-- linguistique de corpus
+- Linguistique de corpus
 - Reconnaissance d'entités nommées
-- Traduction automatique
 - Linguistique computationnelle
+- Traduction automatique
 
 # Education to show in About widget
 education:
