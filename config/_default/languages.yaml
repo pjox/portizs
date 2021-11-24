@@ -34,7 +34,7 @@ fr:
         url: '#contact'
         weight: 8
       - name: CV
-        url: '../files/cv_fr.pdf'
+        url: '../files/cv.pdf'
         weight: 9
 es:
   languageCode: es-co

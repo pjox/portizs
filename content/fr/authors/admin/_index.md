@@ -78,7 +78,7 @@ social:
   link: https://gitlab.com/pjox
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/pedro-j-ortiz/
+  link: https://www.linkedin.com/in/pjox/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/pjox13
@@ -89,7 +89,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: files/cv_fr.pdf
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

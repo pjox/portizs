@@ -78,7 +78,7 @@ social:
   link: https://gitlab.com/pjox
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/pedro-j-ortiz/
+  link: https://www.linkedin.com/in/pjox/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/pjox13
