@@ -57,10 +57,10 @@ social:
   link: https://cv.archives-ouvertes.fr/pedro-ortiz-suarez
 - icon: semantic-scholar
   icon_pack: ai
-  link: https://www.semanticscholar.org/author/Pedro-Javier-Ortiz-Suárez/147846651
+  link: https://www.semanticscholar.org/author/Pedro-Ortiz-Suarez/147846651?sort=influence
 - icon: arxiv
   icon_pack: ai
-  link: https://arxiv.org/search/cs?searchtype=author&query=Suárez%2C+P+J+O
+  link: https://arxiv.org/a/ortizsuarez_p_1.html
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Pedro_Ortiz_Suarez
