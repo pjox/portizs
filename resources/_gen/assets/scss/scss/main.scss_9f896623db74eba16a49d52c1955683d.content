@@ -7259,6 +7259,9 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+p:last-child {
+  margin-bottom: 0; }
+
 /* Lists */
 ul,
 ol,
@@ -7347,7 +7350,10 @@ a:focus {
 
 pre,
 code {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace; }
+
+pre,
+code:not(.hljs) {
   color: #c7254e;
   /* Match bg of default highlight theme. */
   background-color: #f8f8f8; }
@@ -7611,6 +7617,9 @@ div.alert a {
   .article-style figure img {
     margin-top: 0;
     margin-bottom: 0; }
+
+.dark .article-style a {
+  text-decoration: inherit; }
 
 .article-metadata {
   margin-bottom: 15px;
@@ -9462,7 +9471,7 @@ body.dark,
   color: #fff; }
 
 .dark pre,
-.dark code {
+.dark code:not(.hljs) {
   color: #8be9fd;
   background-color: #44475a; }
 

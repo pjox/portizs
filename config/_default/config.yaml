@@ -5,7 +5,6 @@
 
 title: Pedro Ortiz Suarez # Website name
 baseurl: 'https://portizs.eu/' # Website URL
-copyright: 'Pedro Ortiz Suarez &copy; {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -38,7 +37,6 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
   event: '/talk/:slug/'
-  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
@@ -68,4 +66,6 @@ related:
     - name: categories
       weight: 70
 security:
+  _merge: deep
+  sitemap:
   _merge: deep
