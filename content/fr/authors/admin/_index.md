@@ -6,17 +6,17 @@ title: Pedro Ortiz Suarez
 superuser: true
 
 # Role/position/tagline
-role: Doctorant
+role: Postdoctorant
 
 # Organizations/Affiliations
 organizations: 
-- name: Sorbonne Université 
-  url: "https://www.sorbonne-universite.fr/"
-- name: Inria
-  url: "https://www.inria.fr/"
+- name: Universität Mannheim 
+  url: "https://www.uni-mannheim.de/en/"
+- name: Data and Web Science Group
+  url: "https://www.uni-mannheim.de/dws/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Je suis doctorant en informatique à Sorbonne Université et à l'équipe de recherche ALMAnaCH à Inria
+bio: Je suis postdoctorant à l'équipe de recherche de Data and Web Science de l'Université de Mannheim.
 
 # Interests to show in About widget
 interests:
@@ -31,6 +31,7 @@ education:
   courses:
   - course: Doctorat en Informatique
     institution: Sorbonne Université
+    year: 2022
   - course: Licence MIASHS
     institution: Université Paris 8
     year: 2018
@@ -104,7 +105,7 @@ highlight_name: true
 #- Visitors
 ---
 
-Je suis doctorant en informatique à [Sorbonne Université](https://sorbonne-universite.fr/) et à [l'équipe de recherche ALMAnaCH](https://almanach.inria.fr/index-fr.html) à [Inria Paris](https://www.inria.fr/). Je travaille en Traitement Automatique du Langage Naturel (TALN) pour les langues historiques.
+Je suis postdoctorant à [l'équipe de recherche de Data and Web Science](https://www.uni-mannheim.de/dws/) de l'[Université de Mannheim](https://www.uni-mannheim.de/en/).
 
 Je m'intéresse aux grands corpus pour l'entraînement de modèles de langue, en particulier pour les langues peu-dotées et les langues historiques. Je suis intéressé par des tâches telles que la reconnaissance d'entités nommées (NER), l'analyse syntaxique, l'étiquetage morpho-syntaxique, la traduction automatique et la structuration de documents.
 

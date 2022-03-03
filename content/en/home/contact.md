@@ -20,7 +20,7 @@ content:
   form:
     provider: formspree
     formspree:
-      id: pedro.ortiz@inria.fr
+      id: pedro.ortiz@uni-mannheim.de
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
