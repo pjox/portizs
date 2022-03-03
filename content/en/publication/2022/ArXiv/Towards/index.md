@@ -49,10 +49,10 @@ url_pdf: https://arxiv.org/pdf/2201.06642.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#  caption: 'Image credit: [**Alix Chagué**](https://alix-tz.github.io/en/index.html)'
-#  focal_point: ""
-#  preview_only: false
+image:
+ caption: 'Image credit: [**Alix Chagué**](https://alix-tz.github.io/en/index.html)'
+ focal_point: ""
+ preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
