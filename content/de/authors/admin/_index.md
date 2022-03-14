@@ -6,7 +6,7 @@ title: Pedro Ortiz Suarez
 superuser: true
 
 # Role/position/tagline
-role: "Postdoktorand"
+role: "Wissenschaftlicher Mitarbeiter"
 
 # Organizations/Affiliations to show in About widget
 organizations: 
@@ -16,7 +16,7 @@ organizations:
   url: "https://www.uni-mannheim.de/dws/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ich bin Postdoktorand an der Data and Web Science Group der Universität Mannheim.
+bio: Ich bin Wissenschaftlicher Mitarbeiter an der Data and Web Science Group der Universität Mannheim.
 
 # Interests to show in About widget
 interests:
@@ -105,7 +105,7 @@ highlight_name: true
 #- Visitors
 ---
 
-Ich bin Postdoktorand an der [Data and Web Science Group](https://www.uni-mannheim.de/dws/) der [Universität Mannheim](https://www.uni-mannheim.de/).
+Ich bin Wissenschaftlicher Mitarbeiter an der [Data and Web Science Group](https://www.uni-mannheim.de/dws/) der [Universität Mannheim](https://www.uni-mannheim.de/).
 
 Ich interessiere mich für [große Korpora](https://oscar-corpus.com) zum Trainieren von [Sprachmodellen](https://camembert-model.fr), insbesondere für unterversorgte Sprachen und historische Sprachen. Ich interessiere mich für Aufgaben wie Name Entity Recognition (NER), Dependency Parsing und Part-of-Speech Tagging, maschinelle Übersetzung und Dokumentenstrukturierung.
 
