@@ -86,7 +86,7 @@ links:
   url: https://hal.inria.fr/hal-03177623
 - name: arXiv
   url: https://arxiv.org/abs/2103.12028
-url_pdf: https://arxiv.org/pdf/2103.12028.pdf
+url_pdf: https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00447/1986585/tacl_a_00447.pdf
 #url_code: 'https://github.com/pjox/goclassy'
 #url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'
