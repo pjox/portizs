@@ -26,7 +26,7 @@ abstract: Common Crawl is a considerably large, heterogeneous multilingual corpu
 summary: We propose a new pipeline to filter, clean and classify Common Crawl by language, we publish the final corpus under the name OSCAR.
 
 tags:
-featured: true
+featured: false
 
 links:
 - name: CMLC-7

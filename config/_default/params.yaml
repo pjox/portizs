@@ -39,6 +39,8 @@ header:
     show_search: true
     highlight_active_link: true
 
+# Site footer
+
 footer:
   copyright:
     notice: '© {year} Pedro Ortiz Suarez. Logos by [Alix Chagué](https://alix-tz.github.io/en/index.html) © {year} . This work is licensed under {license}'
@@ -47,13 +49,6 @@ footer:
       allow_derivatives: true
       share_alike: false
       allow_commercial: true
-
-copyright:
-  license:
-    enable: true
-    allow_derivatives: true
-    share_alike: false
-    allow_commercial: true
 
 # Localization
 
@@ -66,20 +61,16 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
+    theme_light: github-light
+    theme_dark: dracula
   math:
     enable: true
-  diagram:
-    enable: false
   privacy_pack:
     enable: true
   repository:
-    url: 'https://github.com/pjox/pjortiz'
+    url: 'https://github.com/pjox/portizs'
     content_dir: content
-    branch: master
+    branch: main
   avatar:
     gravatar: false
     shape: circle
@@ -90,6 +81,11 @@ features:
       show_count: true
     commento:
       url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -106,10 +102,16 @@ features:
 
 extensions:
   cms:
-    branch: master
+    branch: main
     local_backend: false
   isotope:
     # Enable if you use the Portfolio widget or Publication filter
     enable: true
   academicons:
     enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

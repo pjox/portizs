@@ -1,7 +1,7 @@
 ---
 title: "CamemBERT: a Tasty French Language Model"
 authors:
-- Louis Martin 
+- Louis Martin
 - Benjamin Muller
 - admin
 - Yoann Dupont

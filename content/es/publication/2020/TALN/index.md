@@ -10,9 +10,9 @@ authors:
 - Benoît Sagot
 - Djamé Seddah
 author_notes:
-- "Contribución a partes iguales"
-- "Contribución a partes iguales"
-- "Contribución a partes iguales"
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 date: "2020-06-08T00:00:00Z"
 doi: ""
 
@@ -32,7 +32,7 @@ publication_short: In *TALN 2020*
 abstract: Contextual word embeddings have become ubiquitous in Natural Language Processing. Until recently, most available models were trained on English data or on the concatanation of corpora in multiple languages. This made the practical use of models in all languages except English very limited. The recent release of monolingual versions of BERT (Devlin et al., 2019) for French established a new state-of-the-art for all evaluated tasks. In this paper, based on experiments on CamemBERT (Martin et al., 2019), we show that pretraining such models on highly variable datasets leads to better downstream performance compared to models trained on more uniform data. Moreover, we show that a relatively small amount of web crawled data (4GB) leads to downstream performances as good as a model pretrained on a corpus two orders of magnitude larger (138GB).
 
 # Summary. An optional shortened abstract.
-summary: We explore the impact of the training data size and heterogeneity on French language modeling.
+summary: We explore the impact of the training data size and heterogeneity on French language modeling. (Equal contribution by the first three authors).
 
 tags:
 featured: false
@@ -74,3 +74,5 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+
+Equal contribution by the first three authors, order of names assigned alphabetically.

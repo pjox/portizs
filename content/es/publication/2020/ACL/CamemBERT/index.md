@@ -1,7 +1,7 @@
 ---
 title: "CamemBERT: a Tasty French Language Model"
 authors:
-- Louis Martin 
+- Louis Martin
 - Benjamin Muller
 - admin
 - Yoann Dupont
@@ -32,7 +32,7 @@ publication_short: In *ACL 2020*
 abstract: Pretrained language models are now ubiquitous in Natural Language Processing. Despite their success, most available models have either been trained on English data or on the concatenation of data in multiple languages. This makes practical use of such models---in all languages except English---very limited. In this paper, we investigate the feasibility of training monolingual Transformer-based language models for other languages, taking French as an example and evaluating our language models on part-of-speech tagging, dependency parsing, named entity recognition and natural language inference tasks. We show that the use of web crawled data is preferable to the use of Wikipedia data. More surprisingly, we show that a relatively small web crawled dataset (4GB) leads to results that are as good as those obtained using larger datasets (130+GB). Our best performing model CamemBERT reaches or improves the state of the art in all four downstream tasks.
 
 # Summary. An optional shortened abstract.
-summary: We explore the impact of the training data size on a French version of RoBERTa.
+summary: We explore the impact of the training data size on a French version of RoBERTa. (Equal contribution by the first three authors).
 
 tags:
 featured: true
@@ -78,3 +78,5 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+
+Equal contribution by the first three authors, order of names assigned alphabetically.

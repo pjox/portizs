@@ -32,15 +32,15 @@ tags:
 featured: true
 
 links:
-# - name: ACL Anthology
-#   url: https://www.aclweb.org/anthology/2020.acl-main.156/
-# - name: ACL 2020
-#   url: https://acl2020.org/
+- name: ACL Anthology
+  url: https://aclanthology.org/2022.lrec-1.119/
+- name: LREC 2022
+  url: https://lrec2022.lrec-conf.org/en/
 - name: HAL
   url: https://hal.archives-ouvertes.fr/hal-03736840
 # - name: arXiv
 #   url: https://arxiv.org/abs/2202.09452
-url_pdf: http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.119.pdf
+url_pdf: https://aclanthology.org/2022.lrec-1.119.pdf
 url_code: 'https://zenodo.org/record/6461220'
 #url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'

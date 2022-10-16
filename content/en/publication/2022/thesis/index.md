@@ -31,11 +31,13 @@ links:
 #   url: https://aclanthology.org/2022.jeptalnrecital-taln.15/
 # - name: ACL 2020
 #   url: https://acl2020.org/
-- name: HAL
+- name: Theses
+  url: https://www.theses.fr/2022SORUS155
+- name: TEL
   url: https://tel.archives-ouvertes.fr/tel-03770337
 # - name: arXiv
 #   url: https://arxiv.org/abs/2202.09452
-url_pdf: https://tel.archives-ouvertes.fr/tel-03770337/document
+url_pdf: https://tel.archives-ouvertes.fr/tel-03770337v2/document
 # url_code: 'https://zenodo.org/record/6461220'
 #url_dataset: 'https://oscar-corpus.com'
 #url_poster: '#'

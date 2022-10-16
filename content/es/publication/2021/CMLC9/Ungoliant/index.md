@@ -27,7 +27,7 @@ abstract: 'Since the introduction of large language models in Natural Language P
 summary: We propose a new pipeline that is faster, modular, parameterizable, and well documented. We use it to create a corpus similar to OSCAR but larger and based on recent data.
 
 tags:
-featured: true
+featured: false
 
 links:
 - name: CMLC-9
