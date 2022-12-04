@@ -30,7 +30,7 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: pjox/portizs-en
           publish_branch: gh-pages
-          publish_dir: ./public/en
+          publish_dir: ./public
           cname: portizs.eu
 
 
