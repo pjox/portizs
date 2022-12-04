@@ -44,4 +44,20 @@ jobs:
           publish_dir: ./public/fr
           cname: portizs.fr
 
+      - name: Deploy-es
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: pjox/portizs-es
+          publish_branch: gh-pages
+          publish_dir: ./public/es
+          cname: portizs.co
 
+      - name: Deploy-de
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: pjox/portizs-de
+          publish_branch: gh-pages
+          publish_dir: ./public/de
+          cname: portizs.de
