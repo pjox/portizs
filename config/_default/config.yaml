@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Pedro Ortiz Suarez # Website name
-baseurl: 'https://portizs.eu' # Website URL
+baseurl: 'https://portizs.eu/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -56,7 +56,7 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
-  markup:
+markup:
   _merge: deep
 related:
   threshold: 80
@@ -69,7 +69,7 @@ related:
       weight: 70
 security:
   _merge: deep
-  sitemap:
+sitemap:
   _merge: deep
 minify:
   _merge: deep

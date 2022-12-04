@@ -1,7 +1,16 @@
-/public
-.firebase/
+# Mac OS
+.DS_Store
+# IDEs
+.idea/
 .vscode/
+
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
 starter-hugo-academic/
 starter-hugo-online-course/
 old/
-.DS_Store
