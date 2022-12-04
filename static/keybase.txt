@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/pjox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.pjortiz.com
+  * I am pjox (https://keybase.io/pjox) on keybase.
+  * I have a public key ASCrWAmI67DSvg1PtP7SFUEnxnkznjj3oB-ky6H4EyhXMwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015de0f18bbc8056b2a337437d25b079b9460f3f844a04e4e199e9d666b9802e4d0a",
+            "host": "keybase.io",
+            "kid": "0120ab580988ebb0d2be0d4fb4fed2154127c679339e38f7a01fa4cba1f8132857330a",
+            "uid": "baacfec910ba93c2c2f2f9cfc7776019",
+            "username": "pjox"
+        },
+        "service": {
+            "hostname": "www.pjortiz.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1468878879,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1468878841,
+        "hash": "8867278574e11d6afcee8168aef659708eaa79f3a8236850411dbaa3f0efe4b7c70cce317768f2767d8689e455bc9e9d789739c8f0a0cfb0831234c0c7a5bb7d",
+        "seqno": 530228
+    },
+    "prev": "0ef4342d90b14702f847154080a24622b407258cd41ebfec8d429c877fe40d40",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgq1gJiOuw0r4NT7T+0hVBJ8Z5M54496AfpMuh+BMoVzMKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNWRlMGYxOGJiYzgwNTZiMmEzMzc0MzdkMjViMDc5Yjk0NjBmM2Y4NDRhMDRlNGUxOTllOWQ2NjZiOTgwMmU0ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYWI1ODA5ODhlYmIwZDJiZTBkNGZiNGZlZDIxNTQxMjdjNjc5MzM5ZTM4ZjdhMDFmYTRjYmExZjgxMzI4NTczMzBhIiwidWlkIjoiYmFhY2ZlYzkxMGJhOTNjMmMyZjJmOWNmYzc3NzYwMTkiLCJ1c2VybmFtZSI6InBqb3gifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5wam9ydGl6LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY4ODc4ODc5LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Njg4Nzg4NDEsImhhc2giOiI4ODY3Mjc4NTc0ZTExZDZhZmNlZTgxNjhhZWY2NTk3MDhlYWE3OWYzYTgyMzY4NTA0MTFkYmFhM2YwZWZlNGI3YzcwY2NlMzE3NzY4ZjI3NjdkODY4OWU0NTViYzllOWQ3ODk3MzljOGYwYTBjZmIwODMxMjM0YzBjN2E1YmI3ZCIsInNlcW5vIjo1MzAyMjh9LCJwcmV2IjoiMGVmNDM0MmQ5MGIxNDcwMmY4NDcxNTQwODBhMjQ2MjJiNDA3MjU4Y2Q0MWViZmVjOGQ0MjljODc3ZmU0MGQ0MCIsInNlcW5vIjoxOCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECUdNmMZAY96gmD1w1cMzVZv5Nqh2PIwyMjAZwXN2y1bdW6JB7n6ON2/R8XXBM9Bmevwc+ZL30bEN2kk/Ck9E0PqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg6txgcrAPJ5ePO6h0FNNDRG9Szey2b3IouW1TACZKOn6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pjox
+
+==================================================================
+
