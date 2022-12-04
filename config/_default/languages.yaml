@@ -38,7 +38,7 @@ fr:
         weight: 9
 es:
   languageCode: es-co
-  baseurl: 'https://pjortiz.co/'
+  baseurl: 'https://portizs.co/'
   contentDir: content/es
   params:
     description: 'Postdoctorante en el equipo de investigación en Data and Web Science de la Universidad de Mannheim'
