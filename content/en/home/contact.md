@@ -28,3 +28,5 @@ content:
 design:
   columns: '2'
 ---
+
+<a rel="me" href="https://mastodon.social/@pjox">Mastodon</a>

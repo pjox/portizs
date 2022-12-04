@@ -1,3 +1,3 @@
-# pjortiz.com
+# portizs.eu
 
 My personal academic website.

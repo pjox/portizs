@@ -81,6 +81,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/pjox/
+- icon: mastodon
+  icon_pack: fab
+  link: https://mastodon.social/@pjox
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/pjox13
