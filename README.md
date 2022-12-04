@@ -1,3 +1,3 @@
 # Pedro's Personal Website
 
-My personal academic website.
+My personal website.
