@@ -6,17 +6,15 @@ title: Pedro Ortiz Suarez
 superuser: true
 
 # Role/position/tagline
-role: "Postdoctorante"
+role: "Investigador"
 
 # Organizations/Affiliations to show in About widget
 organizations: 
-- name: Universität Mannheim 
-  url: "https://www.uni-mannheim.de/en/"
-- name: Data and Web Science Group
-  url: "https://www.uni-mannheim.de/dws/"
+- name: DFKI GmbH
+  url: "https://www.dfki.de/en/web"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Soy postdoctorante en el equipo de investigación en Data and Web Science de la Universidad de Mannheim.
+bio: Soy investigador del Equipo de Speech and Language Technology de DFKI GmbH Berlín.
 
 
 # Interests to show in About widget
@@ -109,7 +107,7 @@ highlight_name: true
 #- Visitors
 ---
 
-Soy postdoctorante en el [equipo de investigación en Data and Web Science](https://www.uni-mannheim.de/dws/) de la [Universidad de Mannheim](https://www.uni-mannheim.de/en/).
+Soy investigador del [Equipo de Speech and Language Technology](https://www.dfki.de/en/web/research/research-departments/speech-and-language-technology) de [DFKI GmbH](https://www.dfki.de/en/web) Berlín.
 
 Me intereso principalmente en la creación de [datasets de gran tamaño](https://oscar-corpus.com) para el entrenamiento de [modelos de lenguaje](https://camembert-model.fr), especialmente para idiomas de escasos recursos e idiomas históricos. Estoy interesado en tareas como Reconocimiento de entidades (NER), Análisis de dependencias y etiquetado de parte del discurso, Traducción automática y Estructuración de documentos.
 
