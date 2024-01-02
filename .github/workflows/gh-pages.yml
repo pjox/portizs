@@ -29,7 +29,7 @@ jobs:
       - name: Deploy-en
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: pjox/portizs-en
           publish_branch: gh-pages
           publish_dir: ./public/en
@@ -38,7 +38,7 @@ jobs:
       - name: Deploy-fr
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: pjox/portizs-fr
           publish_branch: gh-pages
           publish_dir: ./public/fr
@@ -47,7 +47,7 @@ jobs:
       - name: Deploy-es
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: pjox/portizs-es
           publish_branch: gh-pages
           publish_dir: ./public/es
@@ -56,7 +56,7 @@ jobs:
       - name: Deploy-de
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: pjox/portizs-de
           publish_branch: gh-pages
           publish_dir: ./public/de
