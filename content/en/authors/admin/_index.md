@@ -6,15 +6,15 @@ title: Pedro Ortiz Suarez
 superuser: true
 
 # Role/position/tagline
-role: "Researcher"
+role: "Senior Research Scientist"
 
 # Organizations/Affiliations to show in About widget
 organizations: 
-- name: DFKI GmbH
-  url: "https://www.dfki.de/en/web"
+- name: Common Crawl Foundation
+  url: "https://commoncrawl.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I'm a researcher at the Speech and Language Technology Team at DFKI GmbH Berlin.
+bio: I'm a Senior Research Scientist at the Common Crawl Foundation.
 
 # Interests to show in About widget
 interests:
@@ -106,7 +106,7 @@ highlight_name: true
 #- Visitors
 ---
 
-I'm a researcher at the [Speech and Language Technology Team](https://www.dfki.de/en/web/research/research-departments/speech-and-language-technology) at [DFKI GmbH](https://www.dfki.de/en/web) Berlin.
+I'm a Senior Research Scientist at the [Common Crawl Foundation](https://commoncrawl.org).
 
 I am interested in [large corpora](https://oscar-corpus.com) for training [language models](https://camembert-model.fr), specially for under resourced languages and historical languages. I am interested in tasks such as Name Entity Recognition (NER), Dependency Parsing and Part-of-Speech tagging, Machine Translation and Document structuration.
 
